@@ -1,0 +1,7 @@
+city,year,basis,records,regular_pay_usd,overtime_pay_usd,other_pay_usd,total_pay_usd,overtime_share_pct,classification
+Chicago,2024,Payroll year (24 periods),1518217,3173609171.77,512877448.65,453329862.42,4139816482.84,12.3889,analyst-coded pay elements
+Chicago,2025,Payroll year (24 periods),1512358,3320272419.91,469896049.27,603655265.21,4393823734.39,10.6945,analyst-coded pay elements
+New York City,2024,Fiscal year (July-June),562898,29238520496.40,3059251067.52,3383895994.16,35681667558.08,8.5737,published field
+New York City,2025,Fiscal year (July-June),550219,29236361674.09,2922389822.93,2437182945.27,34595934442.29,8.4472,published field
+San Francisco,2024,Fiscal year (July-June),43123,4218260023.13,468861634.07,230803436.07,4917925093.27,9.5337,published field
+San Francisco,2025,Fiscal year (July-June),43239,4527883841.56,471006259.12,259381752.05,5258271852.73,8.9574,published field

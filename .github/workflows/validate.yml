@@ -1,0 +1,16 @@
+name: Validate payroll snapshot
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Check committed data and report links
+        run: python validate_snapshot.py

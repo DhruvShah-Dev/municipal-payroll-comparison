@@ -1,0 +1,5744 @@
+{
+  "nyc": [
+    {
+      "fiscal_year": "2024",
+      "rows": "562898",
+      "regular": "29238520496.40",
+      "overtime": "3059251067.52",
+      "other": "3383895994.16"
+    },
+    {
+      "fiscal_year": "2025",
+      "rows": "550219",
+      "regular": "29236361674.09",
+      "overtime": "2922389822.93",
+      "other": "2437182945.27"
+    }
+  ],
+  "sf": [
+    {
+      "year": "2024",
+      "rows": "43123",
+      "regular": "4218260023.13",
+      "overtime": "468861634.07",
+      "other": "230803436.07",
+      "total_salary": "4917925093.27",
+      "benefits": "1564454631.09"
+    },
+    {
+      "year": "2025",
+      "rows": "43239",
+      "regular": "4527883841.56",
+      "overtime": "471006259.12",
+      "other": "259381752.05",
+      "total_salary": "5258271852.73",
+      "benefits": "1660543573.21"
+    }
+  ],
+  "chicago_pay_elements": [
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "rows": "2919",
+      "amount": "382828.14"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "rows": "603",
+      "amount": "38222.24"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "rows": "376",
+      "amount": "15719.09"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP 1 RATE 2_5",
+      "rows": "4",
+      "amount": "373.1"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP SAL",
+      "rows": "695",
+      "amount": "136271.53"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP SAL 2_0",
+      "rows": "1",
+      "amount": "0"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ACT UP SAL NO PEN",
+      "rows": "823",
+      "amount": "108284.49"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ADMIN DAY BUY BACK",
+      "rows": "85",
+      "amount": "105647.89"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "BABY FURLOUGH BUY BACK",
+      "rows": "3994",
+      "amount": "7142400.36"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "BIKE",
+      "rows": "8017",
+      "amount": "2199250"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CANINE OVERTIME",
+      "rows": "729",
+      "amount": "126525"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CBA LUMP SUM",
+      "rows": "20899",
+      "amount": "46057500"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CFD FITNESS PAY",
+      "rows": "1931",
+      "amount": "867150"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CIT",
+      "rows": "5725",
+      "amount": "1432000"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "COMP TIME 200 HR BB",
+      "rows": "1124",
+      "amount": "15941408.61"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "COMP TIME BUY BACK",
+      "rows": "1185",
+      "amount": "2272598.92"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "COMP TIME SWN BB",
+      "rows": "1190",
+      "amount": "25614215.83"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CONTINUING EDUCATION",
+      "rows": "4329",
+      "amount": "6009001.88"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "COURT NO PEN",
+      "rows": "137",
+      "amount": "4600378.89"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "COURT SETTLEMENT",
+      "rows": "59",
+      "amount": "475086.36"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "CPD FITNESS PAY",
+      "rows": "2461",
+      "amount": "1072400"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC BABY FURLOUGH BB",
+      "rows": "16",
+      "amount": "35333.74"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC COMP SWN BB",
+      "rows": "14",
+      "amount": "329042.19"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC COMP TIME BB",
+      "rows": "6",
+      "amount": "25834.56"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC DUTY AVAILABILITY",
+      "rows": "15",
+      "amount": "5383.33"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC MISC EARNINGS",
+      "rows": "8",
+      "amount": "3254.51"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC OT FLSA",
+      "rows": "5",
+      "amount": "2223.54"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC PERS DAY BB",
+      "rows": "16",
+      "amount": "34385.45"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC SPRVSR QRT OT",
+      "rows": "5",
+      "amount": "2680.52"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC UNIFORM ALLOWANCE",
+      "rows": "2",
+      "amount": "50"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC VAC PAYOUT",
+      "rows": "38",
+      "amount": "242136.50"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DEC VAC SWN HR",
+      "rows": "22",
+      "amount": "289597.68"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DOCK",
+      "rows": "11953",
+      "amount": "-6545406.32"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DOCK HOURLY",
+      "rows": "2",
+      "amount": "-6171.6"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DRIVER DIFF 1_0",
+      "rows": "24195",
+      "amount": "4263259.94"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DRIVER DIFF 2_0",
+      "rows": "2646",
+      "amount": "327238.93"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "DUTY AVAILABILITY",
+      "rows": "63095",
+      "amount": "59539666.98"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "EXPENSE REIMBURSEMENT",
+      "rows": "1106",
+      "amount": "63313.29"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "FURLOUGH BUY BACK",
+      "rows": "231",
+      "amount": "346614.78"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "HOLIDAY PREMIUM",
+      "rows": "39311",
+      "amount": "30711238.80"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "HOLIDAY PREMIUM 2_0",
+      "rows": "2",
+      "amount": "0.0"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "HOLIDAY PREMIUM 2_5",
+      "rows": "808",
+      "amount": "1542128.98"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "LEMART",
+      "rows": "24479",
+      "amount": "6120750"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MCCREA SETTLEMENT",
+      "rows": "36",
+      "amount": "1258041.81"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MEAL STIPEND",
+      "rows": "1491",
+      "amount": "59604.00"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MILEAGE",
+      "rows": "2361",
+      "amount": "751665.06"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MISC EARNINGS SALARY",
+      "rows": "2091",
+      "amount": "1312324.26"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "rows": "277",
+      "amount": "89015.59"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ML BASIC TRAIN",
+      "rows": "19",
+      "amount": "5511.53"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ML DEPLOY COMBAT",
+      "rows": "646",
+      "amount": "2388893.95"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ML NON COMBAT",
+      "rows": "633",
+      "amount": "1489138.21"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "ML SPECIAL TRAIN",
+      "rows": "24",
+      "amount": "25286.40"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 1 RATE 1_0",
+      "rows": "17451",
+      "amount": "9782812.12"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 1 RATE 1_5",
+      "rows": "6312",
+      "amount": "1290981.33"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 1 RATE 2_0",
+      "rows": "2993",
+      "amount": "516225.47"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 1 RATE 2_5",
+      "rows": "24",
+      "amount": "11746.63"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 2 RATE 1_0",
+      "rows": "6925",
+      "amount": "16905385.93"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 2 RATE 1_5",
+      "rows": "2394",
+      "amount": "1612729.04"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 2 RATE 2_0",
+      "rows": "422",
+      "amount": "371747.30"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 2 RATE 2_5",
+      "rows": "29",
+      "amount": "12810.00"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 3 RATE 1_0",
+      "rows": "1637",
+      "amount": "4749998.21"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 3 RATE 1_5",
+      "rows": "960",
+      "amount": "742187.39"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 3 RATE 2_0",
+      "rows": "286",
+      "amount": "127909.11"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 3 RATE 2_5",
+      "rows": "3",
+      "amount": "1862.33"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 4 RATE 1_0",
+      "rows": "689",
+      "amount": "2104357.35"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 4 RATE 1_5",
+      "rows": "312",
+      "amount": "128533.14"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 4 RATE 2_0",
+      "rows": "311",
+      "amount": "198035.29"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 4 RATE 2_5",
+      "rows": "2",
+      "amount": "1219.80"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 5 RATE 1_0",
+      "rows": "1729",
+      "amount": "4992592.71"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 5 RATE 1_5",
+      "rows": "747",
+      "amount": "672735.48"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 5 RATE 2_0",
+      "rows": "388",
+      "amount": "344499.03"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 5 RATE 2_5",
+      "rows": "3",
+      "amount": "945.6"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 6 RATE 1_0",
+      "rows": "2164",
+      "amount": "7571778.23"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 6 RATE 1_5",
+      "rows": "1731",
+      "amount": "1565548.99"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 6 RATE 2_0",
+      "rows": "410",
+      "amount": "434619.76"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 6 RATE 2_5",
+      "rows": "22",
+      "amount": "6311.55"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 7 RATE 1_0",
+      "rows": "440",
+      "amount": "1176408.46"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 7 RATE 1_5",
+      "rows": "220",
+      "amount": "160851.07"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 7 RATE 2_0",
+      "rows": "59",
+      "amount": "26649.57"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 8 RATE 1_0",
+      "rows": "13",
+      "amount": "20101.46"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 8 RATE 1_5",
+      "rows": "4",
+      "amount": "4960.13"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "MULT 8 RATE 2_0",
+      "rows": "2",
+      "amount": "1239.18"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 1_0",
+      "rows": "103019",
+      "amount": "158449916.59"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 1_5",
+      "rows": "136249",
+      "amount": "171398855.63"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 1_5 REIMB",
+      "rows": "219",
+      "amount": "195247.84"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 2_0",
+      "rows": "43283",
+      "amount": "41786523.92"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 2_0 REIMB",
+      "rows": "236",
+      "amount": "306510.70"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 2_5",
+      "rows": "2038",
+      "amount": "1358860.28"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT 2_5 REIMB",
+      "rows": "6",
+      "amount": "1345.11"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OT FLSA",
+      "rows": "62789",
+      "amount": "126178998.16"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "OVERTIME 0_5",
+      "rows": "1",
+      "amount": "3.08"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "PACT UP 1 RT 1_0",
+      "rows": "1295",
+      "amount": "739049.83"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "PACT UP 2 RT 1_0",
+      "rows": "17",
+      "amount": "6165.10"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "PARKS",
+      "rows": "3959",
+      "amount": "5152012.10"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "PARTICIPATION AWARD",
+      "rows": "28",
+      "amount": "2800"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "PERSONAL DAY BUY BACK",
+      "rows": "3014",
+      "amount": "5409099.49"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "REG 1_125",
+      "rows": "132",
+      "amount": "460511.79"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "REG 1_15",
+      "rows": "1548",
+      "amount": "3606271.50"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "REGULAR SALARY",
+      "rows": "605944",
+      "amount": "2600804181.81"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "REGULAR TIME",
+      "rows": "166207",
+      "amount": "572804989.96"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "REQ CERT RENEWAL",
+      "rows": "7",
+      "amount": "5250"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "RETRO PAY NO PEN",
+      "rows": "9122",
+      "amount": "10509755.83"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "RETRO PAY PEN",
+      "rows": "9912",
+      "amount": "60029001.55"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "SPCL EMP CHA",
+      "rows": "3604",
+      "amount": "4891224.75"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "SPCL EMP CTA",
+      "rows": "9773",
+      "amount": "17024341.03"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "SPECIALTY PAY",
+      "rows": "13488",
+      "amount": "20897472.07"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "STIPEND HOURS",
+      "rows": "1539",
+      "amount": "480249.00"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "SUPERVISORS QUARTERLY OT",
+      "rows": "6742",
+      "amount": "13074662.34"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "SUSPENSION",
+      "rows": "773",
+      "amount": "-1010102.66"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "TIME ENTRY WAGES",
+      "rows": "346",
+      "amount": "876621.91"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "TOOL ALLOWANCE",
+      "rows": "584",
+      "amount": "120003.0"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "TRAINING INSTRUCTOR PAY",
+      "rows": "1806",
+      "amount": "1210894.00"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "rows": "47376",
+      "amount": "30217866.90"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "VAC HR PAYOUT",
+      "rows": "937",
+      "amount": "6016691.43"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "VAC SAL BUY BACK",
+      "rows": "3",
+      "amount": "14414.47"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "VAC SWN HR PAYOUT",
+      "rows": "684",
+      "amount": "11968207.61"
+    },
+    {
+      "payroll_year": "2024",
+      "pay_element": "VOL FURLOUGH",
+      "rows": "16",
+      "amount": "-18493.88"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "rows": "1272",
+      "amount": "151937.87"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "rows": "242",
+      "amount": "10265.02"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "rows": "142",
+      "amount": "6048.70"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP 1 RATE 2_5",
+      "rows": "1",
+      "amount": "40"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP SAL",
+      "rows": "683",
+      "amount": "108973.09"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP SAL 2_0",
+      "rows": "3",
+      "amount": "111.62"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ACT UP SAL NO PEN",
+      "rows": "955",
+      "amount": "113983.95"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ADMIN DAY BUY BACK",
+      "rows": "98",
+      "amount": "128831.51"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "BABY FURLOUGH BUY BACK",
+      "rows": "3915",
+      "amount": "7416127.63"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "BIKE",
+      "rows": "12538",
+      "amount": "3135750.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CANINE OVERTIME",
+      "rows": "689",
+      "amount": "120225"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CBA LUMP SUM",
+      "rows": "6399",
+      "amount": "16661500.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CFD FITNESS PAY",
+      "rows": "2084",
+      "amount": "936900"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CIT",
+      "rows": "7405",
+      "amount": "1851500"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "COMP TIME 200 HR BB",
+      "rows": "1167",
+      "amount": "18169931.21"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "COMP TIME BUY BACK",
+      "rows": "1307",
+      "amount": "2013171.60"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "COMP TIME SWN BB",
+      "rows": "3177",
+      "amount": "29191162.49"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CONTINUING EDUCATION",
+      "rows": "4417",
+      "amount": "6137491.70"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "COURT NO PEN",
+      "rows": "2165",
+      "amount": "8694595.94"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "COURT SETTLEMENT",
+      "rows": "38",
+      "amount": "249412.46"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "CPD FITNESS PAY",
+      "rows": "2403",
+      "amount": "1080450"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC BABY FURLOUGH BB",
+      "rows": "10",
+      "amount": "22690.21"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC COMP SWN BB",
+      "rows": "11",
+      "amount": "114633.48"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC COMP TIME BB",
+      "rows": "2",
+      "amount": "23389.72"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC DUTY AVAILABILITY",
+      "rows": "10",
+      "amount": "4750.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC MISC EARNINGS",
+      "rows": "6",
+      "amount": "5499.07"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC OT FLSA",
+      "rows": "1",
+      "amount": "115.34"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC PERS DAY BB",
+      "rows": "11",
+      "amount": "25360.24"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC VAC PAYOUT",
+      "rows": "17",
+      "amount": "113650.31"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DEC VAC SWN HR",
+      "rows": "15",
+      "amount": "200220.17"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DOCK",
+      "rows": "13647",
+      "amount": "-7929598.10"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DRIVER DIFF 1_0",
+      "rows": "25295",
+      "amount": "4345226.29"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DRIVER DIFF 2_0",
+      "rows": "2171",
+      "amount": "267009.26"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DRIVER DIFFERENTIAL",
+      "rows": "26",
+      "amount": "6876.78"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "DUTY AVAILABILITY",
+      "rows": "68122",
+      "amount": "60069503.79"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "EXPENSE REIMBURSEMENT",
+      "rows": "2072",
+      "amount": "66433.55"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "FURLOUGH BUY BACK",
+      "rows": "295",
+      "amount": "348010.86"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "HOLIDAY PREMIUM",
+      "rows": "38706",
+      "amount": "31798948.28"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "HOLIDAY PREMIUM 2_5",
+      "rows": "846",
+      "amount": "1692146.67"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "LEMART",
+      "rows": "33719",
+      "amount": "8429250"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MCCREA SETTLEMENT",
+      "rows": "33",
+      "amount": "1059373.95"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MEAL STIPEND",
+      "rows": "2422",
+      "amount": "58794.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MILEAGE",
+      "rows": "2347",
+      "amount": "784584.18"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MISC EARNINGS SALARY",
+      "rows": "1908",
+      "amount": "718960.82"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "rows": "262",
+      "amount": "71691.49"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ML BASIC TRAIN",
+      "rows": "7",
+      "amount": "2882.32"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ML DEPLOY COMBAT",
+      "rows": "658",
+      "amount": "2576082.94"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ML NON COMBAT",
+      "rows": "477",
+      "amount": "1211174.44"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "ML SPECIAL TRAIN",
+      "rows": "24",
+      "amount": "28536.20"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 1 RATE 1_0",
+      "rows": "17809",
+      "amount": "10208542.15"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 1 RATE 1_5",
+      "rows": "6338",
+      "amount": "1620988.98"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 1 RATE 2_0",
+      "rows": "3365",
+      "amount": "734891.80"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 1 RATE 2_5",
+      "rows": "30",
+      "amount": "27788.30"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 2 RATE 1_0",
+      "rows": "8580",
+      "amount": "20411447.43"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 2 RATE 1_5",
+      "rows": "2201",
+      "amount": "1630825.11"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 2 RATE 2_0",
+      "rows": "597",
+      "amount": "459170.62"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 2 RATE 2_5",
+      "rows": "16",
+      "amount": "10184.13"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 3 RATE 1_0",
+      "rows": "2013",
+      "amount": "5260717.74"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 3 RATE 1_5",
+      "rows": "879",
+      "amount": "677137.29"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 3 RATE 2_0",
+      "rows": "291",
+      "amount": "182244.69"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 3 RATE 2_5",
+      "rows": "2",
+      "amount": "704.4"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 4 RATE 1_0",
+      "rows": "379",
+      "amount": "1136046.74"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 4 RATE 1_5",
+      "rows": "63",
+      "amount": "47414.77"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 4 RATE 2_0",
+      "rows": "129",
+      "amount": "149541.12"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 5 RATE 1_0",
+      "rows": "2312",
+      "amount": "6744811.39"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 5 RATE 1_5",
+      "rows": "937",
+      "amount": "778783.09"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 5 RATE 2_0",
+      "rows": "435",
+      "amount": "331134.36"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 5 RATE 2_5",
+      "rows": "1",
+      "amount": "391.5"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 6 RATE 1_0",
+      "rows": "1962",
+      "amount": "6890787.83"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 6 RATE 1_5",
+      "rows": "1728",
+      "amount": "1786509.98"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 6 RATE 2_0",
+      "rows": "689",
+      "amount": "795726.46"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 6 RATE 2_5",
+      "rows": "46",
+      "amount": "8893.25"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 7 RATE 1_0",
+      "rows": "290",
+      "amount": "839982.21"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 7 RATE 1_5",
+      "rows": "182",
+      "amount": "104994.68"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 7 RATE 2_0",
+      "rows": "71",
+      "amount": "38214.58"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 8 RATE 1_0",
+      "rows": "23",
+      "amount": "-19595.88"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 8 RATE 1_5",
+      "rows": "20",
+      "amount": "-1286.34"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "MULT 8 RATE 2_0",
+      "rows": "6",
+      "amount": "214.39"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 1_0",
+      "rows": "94342",
+      "amount": "144300237.14"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 1_5",
+      "rows": "127241",
+      "amount": "163761615.12"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 1_5 REIMB",
+      "rows": "248",
+      "amount": "218268.71"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 2_0",
+      "rows": "45639",
+      "amount": "42813603.96"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 2_0 REIMB",
+      "rows": "358",
+      "amount": "454446.99"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 2_5",
+      "rows": "2004",
+      "amount": "1361425.69"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT 2_5 REIMB",
+      "rows": "5",
+      "amount": "2587.24"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "OT FLSA",
+      "rows": "52736",
+      "amount": "102609331.86"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PACT UP 1 RT 1_0",
+      "rows": "762",
+      "amount": "723172.79"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PACT UP 2 RT 1_0",
+      "rows": "3",
+      "amount": "2845.90"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PARKS",
+      "rows": "4026",
+      "amount": "5556416.45"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PARTICIPATION AWARD",
+      "rows": "23",
+      "amount": "2300"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PERSONAL DAY BUY BACK",
+      "rows": "2942",
+      "amount": "5603783.48"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PR YR CRT STTLMNT",
+      "rows": "11",
+      "amount": "50317.42"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PR YR MISC EARNINGS",
+      "rows": "34",
+      "amount": "226406.63"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "PR YR RETRO PEN",
+      "rows": "6793",
+      "amount": "161120292.97"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "REG 1_125",
+      "rows": "106",
+      "amount": "414036.60"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "REG 1_15",
+      "rows": "1781",
+      "amount": "3999816.47"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "REGULAR SALARY",
+      "rows": "609894",
+      "amount": "2731601137.95"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "REGULAR TIME",
+      "rows": "164852",
+      "amount": "588671281.96"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "REQ CERT RENEWAL",
+      "rows": "8",
+      "amount": "6750.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "RETRO PAY NO PEN",
+      "rows": "7423",
+      "amount": "51843099.38"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "RETRO PAY PEN",
+      "rows": "1851",
+      "amount": "13779485.70"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "SPCL EMP CHA",
+      "rows": "5165",
+      "amount": "6950208.84"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "SPCL EMP CTA",
+      "rows": "11508",
+      "amount": "20923488.89"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "SPECIALTY PAY",
+      "rows": "13615",
+      "amount": "20945426.46"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "STIPEND HOURS",
+      "rows": "2713",
+      "amount": "511987.65"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "SUPERVISORS QUARTERLY OT",
+      "rows": "8414",
+      "amount": "14254307.56"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "SUSPENSION",
+      "rows": "825",
+      "amount": "-1203378.03"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "TIME ENTRY WAGES",
+      "rows": "389",
+      "amount": "1114320.53"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "TOOL ALLOWANCE",
+      "rows": "573",
+      "amount": "109761.05"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "TRAINING INSTRUCTOR PAY",
+      "rows": "1754",
+      "amount": "1034905.72"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "rows": "47072",
+      "amount": "30155077.94"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "VAC HR PAYOUT",
+      "rows": "1002",
+      "amount": "6435122.82"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "VAC SAL BUY BACK",
+      "rows": "4",
+      "amount": "12880.00"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "VAC SWN HR PAYOUT",
+      "rows": "619",
+      "amount": "10314918.45"
+    },
+    {
+      "payroll_year": "2025",
+      "pay_element": "VOL FURLOUGH",
+      "rows": "9",
+      "amount": "-9766.72"
+    }
+  ],
+  "chicago_periods": [
+    {
+      "payroll_year": "2024",
+      "first_period": "1",
+      "last_period": "24",
+      "periods": "24",
+      "rows": "1518217"
+    },
+    {
+      "payroll_year": "2025",
+      "first_period": "1",
+      "last_period": "24",
+      "periods": "24",
+      "rows": "1512358"
+    }
+  ],
+  "nyc_departments": [
+    {
+      "agency_name": "ADMIN FOR CHILDREN'S SVCS",
+      "regular": "523979798.88",
+      "overtime": "52445049.66",
+      "other": "30572464.08"
+    },
+    {
+      "agency_name": "ADMIN TRIALS AND HEARINGS",
+      "regular": "55250164.19",
+      "overtime": "77761.79",
+      "other": "745708.13"
+    },
+    {
+      "agency_name": "BOARD OF CORRECTION",
+      "regular": "2814603.91",
+      "overtime": "0.00",
+      "other": "14845.85"
+    },
+    {
+      "agency_name": "BOARD OF ELECTION",
+      "regular": "53397696.86",
+      "overtime": "15091436.22",
+      "other": "1738263.96"
+    },
+    {
+      "agency_name": "BOARD OF ELECTION POLL WORKERS",
+      "regular": "47706466.59",
+      "overtime": "0.00",
+      "other": "-325.00"
+    },
+    {
+      "agency_name": "BOROUGH PRESIDENT-BRONX",
+      "regular": "5205301.76",
+      "overtime": "53654.25",
+      "other": "76221.02"
+    },
+    {
+      "agency_name": "BOROUGH PRESIDENT-BROOKLYN",
+      "regular": "5507710.38",
+      "overtime": "0.00",
+      "other": "515092.43"
+    },
+    {
+      "agency_name": "BOROUGH PRESIDENT-QUEENS",
+      "regular": "5500157.55",
+      "overtime": "0.00",
+      "other": "403044.19"
+    },
+    {
+      "agency_name": "BOROUGH PRESIDENT-STATEN IS",
+      "regular": "2677752.94",
+      "overtime": "0.00",
+      "other": "82944.81"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #1",
+      "regular": "206178.08",
+      "overtime": "0.00",
+      "other": "639.41"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #10",
+      "regular": "241943.26",
+      "overtime": "0.00",
+      "other": "7164.57"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #11",
+      "regular": "271775.67",
+      "overtime": "0.00",
+      "other": "3612.51"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #12",
+      "regular": "252347.48",
+      "overtime": "0.00",
+      "other": "1828.01"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #2",
+      "regular": "237650.96",
+      "overtime": "0.00",
+      "other": "1505.26"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #3",
+      "regular": "193538.84",
+      "overtime": "0.00",
+      "other": "397.50"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #4",
+      "regular": "168075.92",
+      "overtime": "0.00",
+      "other": "1988.46"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #5",
+      "regular": "168356.72",
+      "overtime": "0.00",
+      "other": "1942.26"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #6",
+      "regular": "231273.08",
+      "overtime": "0.00",
+      "other": "-40.69"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #7",
+      "regular": "224621.44",
+      "overtime": "0.00",
+      "other": "308.75"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #8",
+      "regular": "176216.80",
+      "overtime": "0.00",
+      "other": "30453.20"
+    },
+    {
+      "agency_name": "BRONX COMMUNITY BOARD #9",
+      "regular": "248742.20",
+      "overtime": "0.00",
+      "other": "115.50"
+    },
+    {
+      "agency_name": "BRONX DISTRICT ATTORNEY",
+      "regular": "108316789.40",
+      "overtime": "831266.62",
+      "other": "11591990.87"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #1",
+      "regular": "199229.35",
+      "overtime": "0.00",
+      "other": "646.80"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #10",
+      "regular": "270653.62",
+      "overtime": "0.00",
+      "other": "1590.26"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #11",
+      "regular": "214496.05",
+      "overtime": "0.00",
+      "other": "0.00"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #12",
+      "regular": "246293.67",
+      "overtime": "0.00",
+      "other": "33.00"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #13",
+      "regular": "266411.74",
+      "overtime": "0.00",
+      "other": "390.08"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #14",
+      "regular": "268861.36",
+      "overtime": "0.00",
+      "other": "7.69"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #15",
+      "regular": "114831.45",
+      "overtime": "0.00",
+      "other": "74.25"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #16",
+      "regular": "110390.69",
+      "overtime": "0.00",
+      "other": "893.29"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #17",
+      "regular": "206532.48",
+      "overtime": "0.00",
+      "other": "1174.78"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #18",
+      "regular": "228668.10",
+      "overtime": "0.00",
+      "other": "1634.03"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #2",
+      "regular": "207904.03",
+      "overtime": "0.00",
+      "other": "355.76"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #3",
+      "regular": "184133.45",
+      "overtime": "0.00",
+      "other": "1564.01"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #4",
+      "regular": "214136.85",
+      "overtime": "0.00",
+      "other": "152.67"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #5",
+      "regular": "194376.87",
+      "overtime": "0.00",
+      "other": "74.25"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #6",
+      "regular": "264622.63",
+      "overtime": "0.00",
+      "other": "2923.32"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #7",
+      "regular": "258616.95",
+      "overtime": "0.00",
+      "other": "3234.27"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #8",
+      "regular": "239769.39",
+      "overtime": "0.00",
+      "other": "1705.76"
+    },
+    {
+      "agency_name": "BROOKLYN COMMUNITY BOARD #9",
+      "regular": "229361.34",
+      "overtime": "0.00",
+      "other": "1021.16"
+    },
+    {
+      "agency_name": "BUSINESS INTEGRITY COMMISSION",
+      "regular": "5988666.98",
+      "overtime": "42637.15",
+      "other": "121499.80"
+    },
+    {
+      "agency_name": "CAMPAIGN FINANCE BOARD",
+      "regular": "17792084.86",
+      "overtime": "829714.08",
+      "other": "347621.86"
+    },
+    {
+      "agency_name": "CITY CLERK",
+      "regular": "4518610.80",
+      "overtime": "23.18",
+      "other": "97250.48"
+    },
+    {
+      "agency_name": "CITY COUNCIL",
+      "regular": "80176826.44",
+      "overtime": "0.00",
+      "other": "1571559.96"
+    },
+    {
+      "agency_name": "CIVILIAN COMPLAINT REVIEW BD",
+      "regular": "21416905.08",
+      "overtime": "343647.88",
+      "other": "330065.02"
+    },
+    {
+      "agency_name": "CIVIL SERVICE COMMISSION",
+      "regular": "1105093.37",
+      "overtime": "0.00",
+      "other": "9732.37"
+    },
+    {
+      "agency_name": "COMMISSION ON RACIAL EQUITY",
+      "regular": "1087296.71",
+      "overtime": "0.00",
+      "other": "764.14"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (BRONX)",
+      "regular": "82959721.12",
+      "overtime": "1903218.24",
+      "other": "4259658.41"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (HOSTOS)",
+      "regular": "61578648.56",
+      "overtime": "1602408.33",
+      "other": "2990677.56"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (KINGSBORO)",
+      "regular": "103732296.72",
+      "overtime": "1759473.65",
+      "other": "4886302.88"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (LAGUARDIA)",
+      "regular": "127144664.61",
+      "overtime": "692741.04",
+      "other": "5542884.59"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (MANHATTAN)",
+      "regular": "157549183.35",
+      "overtime": "3546346.36",
+      "other": "8696627.03"
+    },
+    {
+      "agency_name": "COMMUNITY COLLEGE (QUEENSBORO)",
+      "regular": "98691706.59",
+      "overtime": "1288271.80",
+      "other": "5350854.62"
+    },
+    {
+      "agency_name": "CONFLICTS OF INTEREST BOARD",
+      "regular": "2590605.81",
+      "overtime": "0.00",
+      "other": "36996.78"
+    },
+    {
+      "agency_name": "CONSUMER AND WORKER PROTECTION",
+      "regular": "32391047.42",
+      "overtime": "140038.85",
+      "other": "564780.23"
+    },
+    {
+      "agency_name": "CULTURAL AFFAIRS",
+      "regular": "5825510.65",
+      "overtime": "17202.04",
+      "other": "150276.62"
+    },
+    {
+      "agency_name": "CUNY CENTRAL OFFICE",
+      "regular": "9016135.02",
+      "overtime": "1424.69",
+      "other": "288663.96"
+    },
+    {
+      "agency_name": "DEPARTMENT FOR THE AGING",
+      "regular": "30957736.36",
+      "overtime": "55221.82",
+      "other": "682329.91"
+    },
+    {
+      "agency_name": "DEPARTMENT OF BUILDINGS",
+      "regular": "137552930.78",
+      "overtime": "3647462.45",
+      "other": "4302367.38"
+    },
+    {
+      "agency_name": "DEPARTMENT OF BUSINESS SERV.",
+      "regular": "30182187.54",
+      "overtime": "58476.37",
+      "other": "553846.16"
+    },
+    {
+      "agency_name": "DEPARTMENT OF CITY PLANNING",
+      "regular": "31764437.74",
+      "overtime": "38621.53",
+      "other": "664381.43"
+    },
+    {
+      "agency_name": "DEPARTMENT OF CORRECTION",
+      "regular": "776834860.78",
+      "overtime": "363358738.68",
+      "other": "104838921.67"
+    },
+    {
+      "agency_name": "DEPARTMENT OF EDUCATION ADMIN",
+      "regular": "1090827772.72",
+      "overtime": "33088464.61",
+      "other": "70194176.84"
+    },
+    {
+      "agency_name": "DEPARTMENT OF FINANCE",
+      "regular": "159147731.00",
+      "overtime": "8216733.06",
+      "other": "6119484.45"
+    },
+    {
+      "agency_name": "DEPARTMENT OF INVESTIGATION",
+      "regular": "26793144.84",
+      "overtime": "394282.48",
+      "other": "359918.58"
+    },
+    {
+      "agency_name": "DEPARTMENT OF PROBATION",
+      "regular": "74694710.15",
+      "overtime": "4946040.73",
+      "other": "5893385.86"
+    },
+    {
+      "agency_name": "DEPARTMENT OF SANITATION",
+      "regular": "849637433.49",
+      "overtime": "203761843.89",
+      "other": "162014306.69"
+    },
+    {
+      "agency_name": "DEPARTMENT OF TRANSPORTATION",
+      "regular": "540402628.04",
+      "overtime": "103410314.06",
+      "other": "41854571.95"
+    },
+    {
+      "agency_name": "DEPT OF CITYWIDE ADMIN SVCS",
+      "regular": "183445276.06",
+      "overtime": "32045032.61",
+      "other": "7382045.39"
+    },
+    {
+      "agency_name": "DEPT. OF DESIGN & CONSTRUCTION",
+      "regular": "117105077.80",
+      "overtime": "1214977.33",
+      "other": "2930440.85"
+    },
+    {
+      "agency_name": "DEPT OF ED HRLY SUPPORT STAFF",
+      "regular": "365758037.45",
+      "overtime": "0.00",
+      "other": "116009727.94"
+    },
+    {
+      "agency_name": "DEPT OF ED PARA PROFESSIONALS",
+      "regular": "1274131257.99",
+      "overtime": "0.00",
+      "other": "138635091.25"
+    },
+    {
+      "agency_name": "DEPT OF ED PEDAGOGICAL",
+      "regular": "10391346320.59",
+      "overtime": "0.00",
+      "other": "401621807.08"
+    },
+    {
+      "agency_name": "DEPT OF ED PER DIEM TEACHERS",
+      "regular": "257362474.97",
+      "overtime": "0.00",
+      "other": "3913266.27"
+    },
+    {
+      "agency_name": "DEPT OF ED PER SESSION TEACHER",
+      "regular": "481269021.26",
+      "overtime": "0.00",
+      "other": "317004.93"
+    },
+    {
+      "agency_name": "DEPT OF ENVIRONMENT PROTECTION",
+      "regular": "551494246.95",
+      "overtime": "61278915.69",
+      "other": "37966974.73"
+    },
+    {
+      "agency_name": "DEPT OF HEALTH/MENTAL HYGIENE",
+      "regular": "554016671.21",
+      "overtime": "18346328.82",
+      "other": "36924772.43"
+    },
+    {
+      "agency_name": "DEPT. OF HOMELESS SERVICES",
+      "regular": "131218555.33",
+      "overtime": "20560200.32",
+      "other": "8782009.07"
+    },
+    {
+      "agency_name": "DEPT OF PARKS & RECREATION",
+      "regular": "448461189.65",
+      "overtime": "26538232.97",
+      "other": "35498868.94"
+    },
+    {
+      "agency_name": "DEPT OF RECORDS & INFO SERVICE",
+      "regular": "4852060.36",
+      "overtime": "0.00",
+      "other": "115200.82"
+    },
+    {
+      "agency_name": "DEPT OF YOUTH & COMM DEV SRVS",
+      "regular": "58375713.72",
+      "overtime": "97683.96",
+      "other": "678834.32"
+    },
+    {
+      "agency_name": "DISTRICT ATTORNEY KINGS COUNTY",
+      "regular": "120867466.33",
+      "overtime": "2801678.11",
+      "other": "4693527.88"
+    },
+    {
+      "agency_name": "DISTRICT ATTORNEY-MANHATTAN",
+      "regular": "160775604.33",
+      "overtime": "3798407.91",
+      "other": "7394921.91"
+    },
+    {
+      "agency_name": "DISTRICT ATTORNEY QNS COUNTY",
+      "regular": "84970983.17",
+      "overtime": "2010102.66",
+      "other": "9582990.67"
+    },
+    {
+      "agency_name": "DISTRICT ATTORNEY RICHMOND COU",
+      "regular": "23410570.99",
+      "overtime": "59688.29",
+      "other": "2319872.47"
+    },
+    {
+      "agency_name": "DISTRICT ATTORNEY-SPECIAL NARC",
+      "regular": "23962727.75",
+      "overtime": "136009.62",
+      "other": "1912597.70"
+    },
+    {
+      "agency_name": "DOE CUSTODIAL PAYROL",
+      "regular": "125587754.75",
+      "overtime": "0.00",
+      "other": "15756.82"
+    },
+    {
+      "agency_name": "EQUAL EMPLOY PRACTICES COMM",
+      "regular": "1112948.56",
+      "overtime": "0.00",
+      "other": "5085.89"
+    },
+    {
+      "agency_name": "FINANCIAL INFO SVCS AGENCY",
+      "regular": "53114636.14",
+      "overtime": "700439.68",
+      "other": "1447850.88"
+    },
+    {
+      "agency_name": "FIRE DEPARTMENT",
+      "regular": "1599596283.60",
+      "overtime": "568017988.31",
+      "other": "298842493.29"
+    },
+    {
+      "agency_name": "GUTTMAN COMMUNITY COLLEGE",
+      "regular": "19076387.92",
+      "overtime": "98022.55",
+      "other": "1122573.15"
+    },
+    {
+      "agency_name": "HOUSING PRESERVATION & DVLPMNT",
+      "regular": "203275413.10",
+      "overtime": "4188063.26",
+      "other": "8032966.39"
+    },
+    {
+      "agency_name": "HRA/DEPT OF SOCIAL SERVICES",
+      "regular": "753696279.93",
+      "overtime": "74769534.28",
+      "other": "47178167.85"
+    },
+    {
+      "agency_name": "HUMAN RIGHTS COMMISSION",
+      "regular": "9953793.57",
+      "overtime": "0.00",
+      "other": "283330.43"
+    },
+    {
+      "agency_name": "HUNTER COLLEGE HIGH SCHOOL",
+      "regular": "15822216.80",
+      "overtime": "45095.40",
+      "other": "1901932.57"
+    },
+    {
+      "agency_name": "INDEPENDENT BUDGET OFFICE",
+      "regular": "5836653.64",
+      "overtime": "0.00",
+      "other": "121545.68"
+    },
+    {
+      "agency_name": "LANDMARKS PRESERVATION COMM",
+      "regular": "6482810.09",
+      "overtime": "14336.82",
+      "other": "172971.28"
+    },
+    {
+      "agency_name": "LAW DEPARTMENT",
+      "regular": "158659390.42",
+      "overtime": "2621456.60",
+      "other": "3228845.99"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #1",
+      "regular": "242559.86",
+      "overtime": "0.00",
+      "other": "2634.65"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #10",
+      "regular": "189507.79",
+      "overtime": "0.00",
+      "other": "292.49"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #11",
+      "regular": "238383.33",
+      "overtime": "0.00",
+      "other": "586.25"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #12",
+      "regular": "223754.20",
+      "overtime": "0.00",
+      "other": "2017.26"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #2",
+      "regular": "214991.21",
+      "overtime": "0.00",
+      "other": "1385.51"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #3",
+      "regular": "217396.86",
+      "overtime": "0.00",
+      "other": "2447.74"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #4",
+      "regular": "237873.87",
+      "overtime": "0.00",
+      "other": "2009.76"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #5",
+      "regular": "244919.51",
+      "overtime": "0.00",
+      "other": "1340.90"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #6",
+      "regular": "276898.12",
+      "overtime": "0.00",
+      "other": "1090.92"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #7",
+      "regular": "266492.87",
+      "overtime": "0.00",
+      "other": "1497.01"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #8",
+      "regular": "243694.01",
+      "overtime": "0.00",
+      "other": "3268.12"
+    },
+    {
+      "agency_name": "MANHATTAN COMMUNITY BOARD #9",
+      "regular": "170839.22",
+      "overtime": "0.00",
+      "other": "2692.79"
+    },
+    {
+      "agency_name": "MAYORS OFFICE OF CONTRACT SVCS",
+      "regular": "19896459.76",
+      "overtime": "0.00",
+      "other": "140110.71"
+    },
+    {
+      "agency_name": "MUNICIPAL WATER FIN AUTHORITY",
+      "regular": "1442869.38",
+      "overtime": "0.00",
+      "other": "2042.59"
+    },
+    {
+      "agency_name": "NYC DEPT OF VETERANS' SERVICES",
+      "regular": "3696791.02",
+      "overtime": "18970.44",
+      "other": "99486.91"
+    },
+    {
+      "agency_name": "NYC EMPLOYEES RETIREMENT SYS",
+      "regular": "44220870.84",
+      "overtime": "2553781.84",
+      "other": "1445428.71"
+    },
+    {
+      "agency_name": "NYC FIRE PENSION FUND",
+      "regular": "5147824.34",
+      "overtime": "129394.41",
+      "other": "107048.43"
+    },
+    {
+      "agency_name": "NYC HOUSING AUTHORITY",
+      "regular": "887590573.71",
+      "overtime": "204825852.68",
+      "other": "34804330.66"
+    },
+    {
+      "agency_name": "NYC POLICE PENSION FUND",
+      "regular": "13686658.70",
+      "overtime": "549577.30",
+      "other": "624816.18"
+    },
+    {
+      "agency_name": "OFFICE OF COLLECTIVE BARGAININ",
+      "regular": "2443835.73",
+      "overtime": "0.00",
+      "other": "3657.34"
+    },
+    {
+      "agency_name": "OFFICE OF CRIMINAL JUSTICE",
+      "regular": "8402918.22",
+      "overtime": "3600.98",
+      "other": "26146.62"
+    },
+    {
+      "agency_name": "OFFICE OF EMERGENCY MANAGEMENT",
+      "regular": "22676426.64",
+      "overtime": "709282.17",
+      "other": "300847.38"
+    },
+    {
+      "agency_name": "OFFICE OF LABOR RELATIONS",
+      "regular": "15545527.18",
+      "overtime": "41760.81",
+      "other": "411878.24"
+    },
+    {
+      "agency_name": "OFFICE OF MANAGEMENT & BUDGET",
+      "regular": "49156953.91",
+      "overtime": "223478.15",
+      "other": "861585.12"
+    },
+    {
+      "agency_name": "OFFICE OF RACIAL EQUITY",
+      "regular": "2323034.00",
+      "overtime": "0.00",
+      "other": "1969.98"
+    },
+    {
+      "agency_name": "OFFICE OF THE ACTUARY",
+      "regular": "5110905.26",
+      "overtime": "23159.49",
+      "other": "99273.91"
+    },
+    {
+      "agency_name": "OFFICE OF THE COMPTROLLER",
+      "regular": "72870507.81",
+      "overtime": "430253.16",
+      "other": "2307954.76"
+    },
+    {
+      "agency_name": "OFFICE OF THE MAYOR",
+      "regular": "44409407.33",
+      "overtime": "44254.87",
+      "other": "1084237.77"
+    },
+    {
+      "agency_name": "OFF OF PAYROLL ADMINISTRATION",
+      "regular": "14518450.02",
+      "overtime": "15090.86",
+      "other": "300384.30"
+    },
+    {
+      "agency_name": "PERSONNEL MONITORS",
+      "regular": "1944395.69",
+      "overtime": "0.00",
+      "other": "2240.86"
+    },
+    {
+      "agency_name": "POLICE DEPARTMENT",
+      "regular": "4196126374.85",
+      "overtime": "1087616024.57",
+      "other": "727539363.99"
+    },
+    {
+      "agency_name": "PRESIDENT BOROUGH OF MANHATTAN",
+      "regular": "4786186.10",
+      "overtime": "197.27",
+      "other": "192717.51"
+    },
+    {
+      "agency_name": "PUBLIC ADMINISTRATOR-BRONX",
+      "regular": "537414.00",
+      "overtime": "0.00",
+      "other": "41744.39"
+    },
+    {
+      "agency_name": "PUBLIC ADMINISTRATOR-KINGS",
+      "regular": "999829.08",
+      "overtime": "0.00",
+      "other": "51238.00"
+    },
+    {
+      "agency_name": "PUBLIC ADMINISTRATOR-NEW YORK",
+      "regular": "920554.93",
+      "overtime": "0.00",
+      "other": "34975.94"
+    },
+    {
+      "agency_name": "PUBLIC ADMINISTRATOR-QUEENS",
+      "regular": "640248.87",
+      "overtime": "0.00",
+      "other": "0.00"
+    },
+    {
+      "agency_name": "PUBLIC ADMINISTRATOR-RICHMOND",
+      "regular": "605059.14",
+      "overtime": "0.00",
+      "other": "300.63"
+    },
+    {
+      "agency_name": "PUBLIC ADVOCATE",
+      "regular": "4826928.89",
+      "overtime": "0.00",
+      "other": "317800.72"
+    },
+    {
+      "agency_name": "PUBLIC SERVICE CORPS",
+      "regular": "495515.64",
+      "overtime": "0.00",
+      "other": "293.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #1",
+      "regular": "205163.01",
+      "overtime": "0.00",
+      "other": "0.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #10",
+      "regular": "147009.13",
+      "overtime": "0.00",
+      "other": "0.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #11",
+      "regular": "258255.80",
+      "overtime": "0.00",
+      "other": "1621.26"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #12",
+      "regular": "211874.40",
+      "overtime": "0.00",
+      "other": "1827.13"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #13",
+      "regular": "161256.39",
+      "overtime": "0.00",
+      "other": "0.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #14",
+      "regular": "156041.78",
+      "overtime": "0.00",
+      "other": "577.28"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #2",
+      "regular": "272034.76",
+      "overtime": "0.00",
+      "other": "982.91"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #3",
+      "regular": "238768.49",
+      "overtime": "0.00",
+      "other": "101.37"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #4",
+      "regular": "233412.23",
+      "overtime": "0.00",
+      "other": "1497.01"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #5",
+      "regular": "271985.37",
+      "overtime": "0.00",
+      "other": "1497.01"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #6",
+      "regular": "173123.88",
+      "overtime": "0.00",
+      "other": "50645.71"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #7",
+      "regular": "228959.16",
+      "overtime": "0.00",
+      "other": "236.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #8",
+      "regular": "257386.18",
+      "overtime": "0.00",
+      "other": "897.00"
+    },
+    {
+      "agency_name": "QUEENS COMMUNITY BOARD #9",
+      "regular": "221756.82",
+      "overtime": "0.00",
+      "other": "1591.26"
+    },
+    {
+      "agency_name": "STATEN ISLAND COMMUNITY BD #1",
+      "regular": "201698.36",
+      "overtime": "0.00",
+      "other": "99.00"
+    },
+    {
+      "agency_name": "STATEN ISLAND COMMUNITY BD #2",
+      "regular": "162341.40",
+      "overtime": "0.00",
+      "other": "1000.00"
+    },
+    {
+      "agency_name": "STATEN ISLAND COMMUNITY BD #3",
+      "regular": "187083.30",
+      "overtime": "0.00",
+      "other": "52141.14"
+    },
+    {
+      "agency_name": "TAX COMMISSION",
+      "regular": "4974699.76",
+      "overtime": "130074.64",
+      "other": "199366.74"
+    },
+    {
+      "agency_name": "TAXI & LIMOUSINE COMMISSION",
+      "regular": "33072005.64",
+      "overtime": "1530968.38",
+      "other": "1835569.03"
+    },
+    {
+      "agency_name": "TEACHERS RETIREMENT SYSTEM",
+      "regular": "37452604.69",
+      "overtime": "37919.74",
+      "other": "1475118.33"
+    },
+    {
+      "agency_name": "TECHNOLOGY & INNOVATION",
+      "regular": "165189526.76",
+      "overtime": "2521470.47",
+      "other": "5170016.48"
+    }
+  ],
+  "sf_departments": [
+    {
+      "department": "Board Of Appeals",
+      "regular": "430504.4",
+      "overtime": "5748.42",
+      "other": "0"
+    },
+    {
+      "department": "Mayor",
+      "regular": "22767724.23",
+      "overtime": "1460.27",
+      "other": "531311.74"
+    },
+    {
+      "department": "Police",
+      "regular": "386342338.40",
+      "overtime": "147221287.80",
+      "other": "55333049.11"
+    },
+    {
+      "department": "Emergency Management",
+      "regular": "43854019.51",
+      "overtime": "9625682.58",
+      "other": "2227108.70"
+    },
+    {
+      "department": "Recreation And Park Commission",
+      "regular": "104430947.46",
+      "overtime": "3196563.74",
+      "other": "2732960.33"
+    },
+    {
+      "department": "Technology",
+      "regular": "44700194.79",
+      "overtime": "817097.22",
+      "other": "1263416.24"
+    },
+    {
+      "department": "War Memorial",
+      "regular": "7283710.97",
+      "overtime": "411527.07",
+      "other": "209650.99"
+    },
+    {
+      "department": "Adult Probation",
+      "regular": "17726518.76",
+      "overtime": "118225.81",
+      "other": "149346.38"
+    },
+    {
+      "department": "Dept of Building Inspection",
+      "regular": "40930202.51",
+      "overtime": "372560.25",
+      "other": "1309497.89"
+    },
+    {
+      "department": "Port",
+      "regular": "38223895.17",
+      "overtime": "798878.38",
+      "other": "623370.57"
+    },
+    {
+      "department": "Assessor-Recorder",
+      "regular": "21948327.63",
+      "overtime": "760.77",
+      "other": "364344.11"
+    },
+    {
+      "department": "Municipal Transportation Agcy",
+      "regular": "595295488.05",
+      "overtime": "77077036.82",
+      "other": "38617135.66"
+    },
+    {
+      "department": "Academy Of Sciences",
+      "regular": "1408257.21",
+      "overtime": "65577.35",
+      "other": "147103.88"
+    },
+    {
+      "department": "Dept of Early Childhood",
+      "regular": "7296386.49",
+      "overtime": "0",
+      "other": "21120"
+    },
+    {
+      "department": "Controller",
+      "regular": "50355111.20",
+      "overtime": "14402.10",
+      "other": "292117.54"
+    },
+    {
+      "department": "Law Library",
+      "regular": "385452.67",
+      "overtime": "0",
+      "other": "37770.24"
+    },
+    {
+      "department": "Fine Arts Museum",
+      "regular": "11068995.32",
+      "overtime": "1433456.86",
+      "other": "279491.08"
+    },
+    {
+      "department": "City Planning",
+      "regular": "26571305.22",
+      "overtime": "1023.53",
+      "other": "101250.80"
+    },
+    {
+      "department": "Retirement System",
+      "regular": "19483825.86",
+      "overtime": "14572.83",
+      "other": "2551122.60"
+    },
+    {
+      "department": "City Administrator",
+      "regular": "117313033.34",
+      "overtime": "3812683.99",
+      "other": "3036916.86"
+    },
+    {
+      "department": "Public Defender",
+      "regular": "38975335.58",
+      "overtime": "32317.79",
+      "other": "422539.02"
+    },
+    {
+      "department": "Human Resources",
+      "regular": "33217695.92",
+      "overtime": "4638.85",
+      "other": "229524.70"
+    },
+    {
+      "department": "Superior Court",
+      "regular": "45337873.82",
+      "overtime": "209404.25",
+      "other": "3709064.00"
+    },
+    {
+      "department": "City Attorney",
+      "regular": "66668745.75",
+      "overtime": "174848.69",
+      "other": "1040236.15"
+    },
+    {
+      "department": "Ethics Commission",
+      "regular": "3416029.44",
+      "overtime": "11.01",
+      "other": "30511.68"
+    },
+    {
+      "department": "Public Utilities Commission",
+      "regular": "335886431.46",
+      "overtime": "11928064.47",
+      "other": "9639779.87"
+    },
+    {
+      "department": "Human Services Agency",
+      "regular": "258782118.33",
+      "overtime": "5492308.82",
+      "other": "4096859.83"
+    },
+    {
+      "department": "Economic Workforce Development",
+      "regular": "20792691.31",
+      "overtime": "151.54",
+      "other": "94643.80"
+    },
+    {
+      "department": "Arts Commission",
+      "regular": "5083442.58",
+      "overtime": "256.09",
+      "other": "64783.70"
+    },
+    {
+      "department": "Sheriff",
+      "regular": "117694147.31",
+      "overtime": "53696200.87",
+      "other": "13175821.98"
+    },
+    {
+      "department": "Treasurer/Tax Collector",
+      "regular": "23654028.17",
+      "overtime": "4221.66",
+      "other": "92778.08"
+    },
+    {
+      "department": "Juvenile Probation",
+      "regular": "19180717.00",
+      "overtime": "2927991.79",
+      "other": "533144.62"
+    },
+    {
+      "department": "Homelessness Services",
+      "regular": "31571321.42",
+      "overtime": "171401.67",
+      "other": "130005.18"
+    },
+    {
+      "department": "Fire Department",
+      "regular": "272256669.12",
+      "overtime": "69383803.27",
+      "other": "46048350.64"
+    },
+    {
+      "department": "Human Rights Commission",
+      "regular": "6497723.89",
+      "overtime": "0",
+      "other": "129401.09"
+    },
+    {
+      "department": "Shrf Dept Ofc Inspctr Genl",
+      "regular": "269640.01",
+      "overtime": "124.85",
+      "other": "9502.47"
+    },
+    {
+      "department": "Children Youth & Families",
+      "regular": "8754219.14",
+      "overtime": "4263.46",
+      "other": "13837.21"
+    },
+    {
+      "department": "Rent Arbitration Board",
+      "regular": "6291682.88",
+      "overtime": "164.14",
+      "other": "33238.05"
+    },
+    {
+      "department": "Environment",
+      "regular": "11399912.09",
+      "overtime": "1621.40",
+      "other": "66131.26"
+    },
+    {
+      "department": "Child Support Services",
+      "regular": "7393999.68",
+      "overtime": "136.47",
+      "other": "104624.63"
+    },
+    {
+      "department": "Status of Women",
+      "regular": "1104831.11",
+      "overtime": "0",
+      "other": "40982.27"
+    },
+    {
+      "department": "Airport Commission",
+      "regular": "208685888.65",
+      "overtime": "8871715.92",
+      "other": "7444836.40"
+    },
+    {
+      "department": "Public Works",
+      "regular": "184031769.42",
+      "overtime": "6225881.19",
+      "other": "4651004.86"
+    },
+    {
+      "department": "Public Health",
+      "regular": "1094298522.79",
+      "overtime": "65313732.32",
+      "other": "53434678.24"
+    },
+    {
+      "department": "District Attorney",
+      "regular": "54188444.41",
+      "overtime": "323313.94",
+      "other": "1590441.79"
+    },
+    {
+      "department": "Dept of Police Accountablility",
+      "regular": "6079277.26",
+      "overtime": "0",
+      "other": "218397.37"
+    },
+    {
+      "department": "Elections",
+      "regular": "6236701.11",
+      "overtime": "384229.43",
+      "other": "126818.34"
+    },
+    {
+      "department": "Health Service System",
+      "regular": "6790448.92",
+      "overtime": "10075.46",
+      "other": "52696.77"
+    },
+    {
+      "department": "Public Library",
+      "regular": "76795136.78",
+      "overtime": "620248.86",
+      "other": "1787830.92"
+    },
+    {
+      "department": "Civil Service Commission",
+      "regular": "959138.85",
+      "overtime": "7.00",
+      "other": "79715.32"
+    },
+    {
+      "department": "Board Of Supervisors",
+      "regular": "12570023.12",
+      "overtime": "30442.03",
+      "other": "307271.42"
+    },
+    {
+      "department": "Asian Art Museum",
+      "regular": "5202995.05",
+      "overtime": "206136.09",
+      "other": "154215.67"
+    }
+  ],
+  "chicago_departments": [
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "DOCK",
+      "amount": "-71921.06"
+    },
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "1054.81"
+    },
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "REGULAR SALARY",
+      "amount": "11376606.82"
+    },
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "REGULAR TIME",
+      "amount": "224633.74"
+    },
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "SUSPENSION",
+      "amount": "-2133.78"
+    },
+    {
+      "department": "D01 - Office of The Mayor",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "61663.03"
+    },
+    {
+      "department": "D03 - Office of Inspector General",
+      "pay_element": "COURT NO PEN",
+      "amount": "5032.45"
+    },
+    {
+      "department": "D03 - Office of Inspector General",
+      "pay_element": "DOCK",
+      "amount": "-16594.40"
+    },
+    {
+      "department": "D03 - Office of Inspector General",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "-266.86"
+    },
+    {
+      "department": "D03 - Office of Inspector General",
+      "pay_element": "REGULAR SALARY",
+      "amount": "11617767.75"
+    },
+    {
+      "department": "D03 - Office of Inspector General",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "34813.16"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "DOCK",
+      "amount": "-7944.70"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "6603.01"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "OT 1_5",
+      "amount": "917.71"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "REGULAR SALARY",
+      "amount": "6052333.32"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "REGULAR TIME",
+      "amount": "826.2"
+    },
+    {
+      "department": "D05 - Office of Budget And Management",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "33189.42"
+    },
+    {
+      "department": "D06 - Department of Technology and Innovation",
+      "pay_element": "DOCK",
+      "amount": "-17784.33"
+    },
+    {
+      "department": "D06 - Department of Technology and Innovation",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "3856.96"
+    },
+    {
+      "department": "D06 - Department of Technology and Innovation",
+      "pay_element": "OT 1_5",
+      "amount": "14.15"
+    },
+    {
+      "department": "D06 - Department of Technology and Innovation",
+      "pay_element": "REGULAR SALARY",
+      "amount": "10162982.13"
+    },
+    {
+      "department": "D06 - Department of Technology and Innovation",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "64381.62"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "COURT NO PEN",
+      "amount": "0"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "DOCK",
+      "amount": "-24622.23"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "12904.34"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "REGULAR SALARY",
+      "amount": "28261936.57"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "REGULAR TIME",
+      "amount": "2216000.35"
+    },
+    {
+      "department": "D15 - City Council",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "43770.25"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "DOCK",
+      "amount": "-23929.43"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "3024.00"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "REGULAR SALARY",
+      "amount": "10067626.94"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "REGULAR TIME",
+      "amount": "89350.00"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "SUSPENSION",
+      "amount": "-1684.43"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "35396.60"
+    },
+    {
+      "department": "D21 - Department of Housing",
+      "pay_element": "VOL FURLOUGH",
+      "amount": "-8178.78"
+    },
+    {
+      "department": "D23 - Department of Cultural Affairs and Special Events",
+      "pay_element": "DOCK",
+      "amount": "-7256.53"
+    },
+    {
+      "department": "D23 - Department of Cultural Affairs and Special Events",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "2912.15"
+    },
+    {
+      "department": "D23 - Department of Cultural Affairs and Special Events",
+      "pay_element": "REGULAR SALARY",
+      "amount": "6551270.80"
+    },
+    {
+      "department": "D23 - Department of Cultural Affairs and Special Events",
+      "pay_element": "REGULAR TIME",
+      "amount": "28457.10"
+    },
+    {
+      "department": "D23 - Department of Cultural Affairs and Special Events",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "29580.78"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "4302.01"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "DOCK",
+      "amount": "-94004.95"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "MILEAGE",
+      "amount": "11854.60"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "2729.68"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "ML NON COMBAT",
+      "amount": "-193.64"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "OT 1_5",
+      "amount": "16891.57"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "REGULAR SALARY",
+      "amount": "7496481.08"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "REGULAR TIME",
+      "amount": "67491.55"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "SUSPENSION",
+      "amount": "-183.88"
+    },
+    {
+      "department": "D25 - City Clerk",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "26363.74"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "ACT UP SAL",
+      "amount": "361.97"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "2000.00"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "25902.18"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "COURT NO PEN",
+      "amount": "2319.29"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "DOCK",
+      "amount": "-568080.19"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "6971.84"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "OT 1_0",
+      "amount": "31084.82"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "OT 1_5",
+      "amount": "251437.44"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "OT 2_0",
+      "amount": "6637.85"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "4898.76"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "REGULAR SALARY",
+      "amount": "44220809.91"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "REGULAR TIME",
+      "amount": "2760394.19"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "SUSPENSION",
+      "amount": "-15140.21"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "53350"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "296138.43"
+    },
+    {
+      "department": "D27 - Department of Finance",
+      "pay_element": "VAC SAL BUY BACK",
+      "amount": "12880.00"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "DOCK",
+      "amount": "-3920.28"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "9426.01"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "REGULAR SALARY",
+      "amount": "3760588.41"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "REGULAR TIME",
+      "amount": "2823.15"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "SUSPENSION",
+      "amount": "-1487.03"
+    },
+    {
+      "department": "D28 - City Treasurer",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "12619.58"
+    },
+    {
+      "department": "D30 - Department of Administrative Hearings",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "2000.00"
+    },
+    {
+      "department": "D30 - Department of Administrative Hearings",
+      "pay_element": "DOCK",
+      "amount": "-30585.11"
+    },
+    {
+      "department": "D30 - Department of Administrative Hearings",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "555.5"
+    },
+    {
+      "department": "D30 - Department of Administrative Hearings",
+      "pay_element": "REGULAR SALARY",
+      "amount": "3050206.64"
+    },
+    {
+      "department": "D30 - Department of Administrative Hearings",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "9162.69"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "4022.48"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "DOCK",
+      "amount": "-148281.95"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "21909.70"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "54433.50"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "REGULAR SALARY",
+      "amount": "40621515.07"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "REGULAR TIME",
+      "amount": "132625.50"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "SUSPENSION",
+      "amount": "-15932.02"
+    },
+    {
+      "department": "D31 - Department of Law",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "135546.26"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "ACT UP SAL",
+      "amount": "1493.0"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "DOCK",
+      "amount": "-34926.36"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "1279.0"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "REGULAR SALARY",
+      "amount": "11018315.74"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "REGULAR TIME",
+      "amount": "38264.80"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "SUSPENSION",
+      "amount": "-2078.28"
+    },
+    {
+      "department": "D33 - Department of Human Resources",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "53443.13"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "DOCK",
+      "amount": "-66166.33"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "7107.45"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "5065.00"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "REGULAR SALARY",
+      "amount": "10467832.84"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "REGULAR TIME",
+      "amount": "187078.45"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "43283.43"
+    },
+    {
+      "department": "D35 - Department of Procurement Services",
+      "pay_element": "VAC SWN HR PAYOUT",
+      "amount": "1338.84"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "23669.45"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "amount": "630.14"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "amount": "220.35"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "12000.00"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "36874.65"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "DOCK",
+      "amount": "-59710.28"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "13207.53"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "444.36"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "ML BASIC TRAIN",
+      "amount": "244.6"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "1332300.96"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "128410.06"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 1 RATE 2_0",
+      "amount": "42079.72"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 1 RATE 2_5",
+      "amount": "643.9"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 2 RATE 1_0",
+      "amount": "487409.47"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 2 RATE 1_5",
+      "amount": "16900.79"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 2 RATE 2_0",
+      "amount": "3370.95"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "332654.92"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "81866.48"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 3 RATE 2_0",
+      "amount": "62035.29"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "MULT 3 RATE 2_5",
+      "amount": "704.4"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "OT 1_0",
+      "amount": "309140.05"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "OT 1_5",
+      "amount": "8679392.30"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "OT 2_0",
+      "amount": "4517337.39"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "OT 2_5",
+      "amount": "41751.20"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "REGULAR SALARY",
+      "amount": "18346820.20"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "REGULAR TIME",
+      "amount": "79055514.04"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "RETRO PAY NO PEN",
+      "amount": "5939.42"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "SUSPENSION",
+      "amount": "-4831.69"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "69400"
+    },
+    {
+      "department": "D38 - Department of Fleet and Facility Management",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "295421.60"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "DOCK",
+      "amount": "-358319.96"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "36588.74"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "OT 1_0",
+      "amount": "13402.32"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "OT 1_5",
+      "amount": "425.51"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "PERSONAL DAY BUY BACK",
+      "amount": "2554.57"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "REGULAR SALARY",
+      "amount": "6718784.81"
+    },
+    {
+      "department": "D39 - Board of Election Commissioners",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "104296.96"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "3000.00"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "7878.23"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "DOCK",
+      "amount": "-461508.66"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "MILEAGE",
+      "amount": "51609.54"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "59229.14"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "324.39"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "OT 1_0",
+      "amount": "233.41"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "OT 1_5",
+      "amount": "137779.16"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "OT 2_0",
+      "amount": "22226.20"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "REGULAR SALARY",
+      "amount": "73637783.28"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "REGULAR TIME",
+      "amount": "61073.42"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "SUSPENSION",
+      "amount": "-11588.60"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "39150"
+    },
+    {
+      "department": "D41 - Department of Public Health",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "492146.31"
+    },
+    {
+      "department": "D45 - Commission on Human Relations",
+      "pay_element": "DOCK",
+      "amount": "-16.65"
+    },
+    {
+      "department": "D45 - Commission on Human Relations",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "2339.02"
+    },
+    {
+      "department": "D45 - Commission on Human Relations",
+      "pay_element": "REGULAR SALARY",
+      "amount": "2171424.50"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "5521.95"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "DOCK",
+      "amount": "-1515.58"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "MILEAGE",
+      "amount": "203.55"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "308.73"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "OT 1_5",
+      "amount": "17977.18"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "REGULAR SALARY",
+      "amount": "3537761.94"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "REGULAR TIME",
+      "amount": "8486.75"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "SUSPENSION",
+      "amount": "-1202.86"
+    },
+    {
+      "department": "D48 - Mayor's Office For People With Disabilities",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "9138.30"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "ACT UP SAL",
+      "amount": "995.98"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "32381.54"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "DOCK",
+      "amount": "-192756.97"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "EXPENSE REIMBURSEMENT",
+      "amount": "66433.55"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "MEAL STIPEND",
+      "amount": "58794.00"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "MILEAGE",
+      "amount": "6964.36"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "26387.36"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "OT 1_5",
+      "amount": "39653.99"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "OT 2_0",
+      "amount": "5261.06"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "200"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "REGULAR SALARY",
+      "amount": "34014361.92"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "REGULAR TIME",
+      "amount": "834869.79"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "STIPEND HOURS",
+      "amount": "511987.65"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "SUSPENSION",
+      "amount": "-1161.24"
+    },
+    {
+      "department": "D50 - Department of Family and Support Services",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "158327.39"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "15781.09"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "amount": "1842.17"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "ACT UP SAL",
+      "amount": "18085.11"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "ACT UP SAL NO PEN",
+      "amount": "833.26"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "30147.27"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "COURT NO PEN",
+      "amount": "4346.42"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "23211.14"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "DOCK",
+      "amount": "-89086.74"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MILEAGE",
+      "amount": "82855.70"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "47077.48"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "54847.02"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "342.40"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "51805.97"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "6590.91"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "OT 1_0",
+      "amount": "13282.00"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "OT 1_5",
+      "amount": "1196636.48"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "OT 2_0",
+      "amount": "267091.82"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "2316.50"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "REGULAR SALARY",
+      "amount": "24710670.74"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "REGULAR TIME",
+      "amount": "6435118.99"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "TOOL ALLOWANCE",
+      "amount": "37382.5"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "16200"
+    },
+    {
+      "department": "D51 - Office of Public Safety Administration",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "173534.94"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "DOCK",
+      "amount": "-65609.74"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "1673.02"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "REGULAR SALARY",
+      "amount": "17312058.90"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "REGULAR TIME",
+      "amount": "16000.00"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "SUSPENSION",
+      "amount": "-3554.41"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "43920.76"
+    },
+    {
+      "department": "D54 - Department of Planning and Development",
+      "pay_element": "VOL FURLOUGH",
+      "amount": "-1587.94"
+    },
+    {
+      "department": "D55 - Police Board",
+      "pay_element": "REGULAR SALARY",
+      "amount": "202302.00"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "BABY FURLOUGH BUY BACK",
+      "amount": "7391051.07"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "BIKE",
+      "amount": "3135000.00"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "CANINE OVERTIME",
+      "amount": "120225"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "650000.00"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "CIT",
+      "amount": "1851500"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "COMP TIME 200 HR BB",
+      "amount": "18169931.21"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "345207.27"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "COMP TIME SWN BB",
+      "amount": "28874932.82"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "COURT NO PEN",
+      "amount": "7758409.93"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "20500.00"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "CPD FITNESS PAY",
+      "amount": "1080450"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC BABY FURLOUGH BB",
+      "amount": "22690.21"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC COMP SWN BB",
+      "amount": "114633.48"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC COMP TIME BB",
+      "amount": "23389.72"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC DUTY AVAILABILITY",
+      "amount": "2850.00"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC MISC EARNINGS",
+      "amount": "5499.07"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC OT FLSA",
+      "amount": "115.34"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC PERS DAY BB",
+      "amount": "25360.24"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "1236.29"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DEC VAC SWN HR",
+      "amount": "81886.51"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DOCK",
+      "amount": "-733188.90"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "DUTY AVAILABILITY",
+      "amount": "41695187.10"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "HOLIDAY PREMIUM",
+      "amount": "6918030.80"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "LEMART",
+      "amount": "8427000"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "97456.61"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "23575.09"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "ML DEPLOY COMBAT",
+      "amount": "2428527.58"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "ML NON COMBAT",
+      "amount": "987285.40"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "OT 1_0",
+      "amount": "137381163.15"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "OT FLSA",
+      "amount": "98413922.96"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PACT UP 1 RT 1_0",
+      "amount": "723172.79"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PACT UP 2 RT 1_0",
+      "amount": "2845.90"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PARKS",
+      "amount": "5556416.45"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "700"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PERSONAL DAY BUY BACK",
+      "amount": "5578142.35"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PR YR CRT STTLMNT",
+      "amount": "1904.84"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "13034.50"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "REGULAR SALARY",
+      "amount": "1408867099.24"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "REGULAR TIME",
+      "amount": "724007.25"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "SPCL EMP CHA",
+      "amount": "6950208.84"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "SPCL EMP CTA",
+      "amount": "20923488.89"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "SUPERVISORS QUARTERLY OT",
+      "amount": "14254307.56"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "SUSPENSION",
+      "amount": "-814065.97"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "TIME ENTRY WAGES",
+      "amount": "45267.86"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "22707902.94"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "120891.90"
+    },
+    {
+      "department": "D57 - Chicago Police Department",
+      "pay_element": "VAC SWN HR PAYOUT",
+      "amount": "4608201.50"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "ACT UP SAL",
+      "amount": "24360.44"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "2000.00"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "177743.17"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "COURT NO PEN",
+      "amount": "7600.34"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "14473.61"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "10053.67"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "DOCK",
+      "amount": "-1856916.12"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "34934.98"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "5308.91"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "ML NON COMBAT",
+      "amount": "18802.30"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "OT 1_0",
+      "amount": "170403.19"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "OT 1_5",
+      "amount": "6730561.32"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "OT 2_0",
+      "amount": "3447792.50"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "OT 2_5",
+      "amount": "300918.40"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "2845.50"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "REGULAR SALARY",
+      "amount": "56897781.23"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "REGULAR TIME",
+      "amount": "4344629.87"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "SUSPENSION",
+      "amount": "-102759.39"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "TIME ENTRY WAGES",
+      "amount": "1174.41"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "239250.00"
+    },
+    {
+      "department": "D58 - Office of Emergency Management and Communications",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "234988.79"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "ACT UP SAL 2_0",
+      "amount": "111.62"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "ACT UP SAL NO PEN",
+      "amount": "107745.01"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "ADMIN DAY BUY BACK",
+      "amount": "128831.51"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "BABY FURLOUGH BUY BACK",
+      "amount": "25076.56"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "BIKE",
+      "amount": "750"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "CFD FITNESS PAY",
+      "amount": "936900"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "14699.18"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "COMP TIME SWN BB",
+      "amount": "316229.67"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "CONTINUING EDUCATION",
+      "amount": "6137491.70"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "COURT NO PEN",
+      "amount": "837017.29"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "49584.91"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DEC DUTY AVAILABILITY",
+      "amount": "1900.00"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DEC VAC SWN HR",
+      "amount": "118333.66"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DOCK",
+      "amount": "-134474.23"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DRIVER DIFF 1_0",
+      "amount": "4345226.29"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DRIVER DIFF 2_0",
+      "amount": "267009.26"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DRIVER DIFFERENTIAL",
+      "amount": "6876.78"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "DUTY AVAILABILITY",
+      "amount": "18374316.69"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "FURLOUGH BUY BACK",
+      "amount": "348010.86"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "HOLIDAY PREMIUM",
+      "amount": "24880917.48"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "HOLIDAY PREMIUM 2_5",
+      "amount": "1677945.87"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "LEMART",
+      "amount": "2250"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "MCCREA SETTLEMENT",
+      "amount": "1059373.95"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "130375.84"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "36830.49"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "ML DEPLOY COMBAT",
+      "amount": "127221.52"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "ML NON COMBAT",
+      "amount": "165030.72"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "OT 1_0",
+      "amount": "1342404.12"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "OT 1_5",
+      "amount": "85393259.03"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "OT FLSA",
+      "amount": "4195408.90"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "300"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "PERSONAL DAY BUY BACK",
+      "amount": "23086.56"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "PR YR CRT STTLMNT",
+      "amount": "22273.58"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "88254.76"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "REGULAR SALARY",
+      "amount": "532167694.40"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "REGULAR TIME",
+      "amount": "1665.24"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "REQ CERT RENEWAL",
+      "amount": "6750.00"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "SPECIALTY PAY",
+      "amount": "20945426.46"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "SUSPENSION",
+      "amount": "-125701.96"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "TIME ENTRY WAGES",
+      "amount": "1066658.26"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "TRAINING INSTRUCTOR PAY",
+      "amount": "1034905.72"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "6750150"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "23005.33"
+    },
+    {
+      "department": "D59 - Chicago Fire Department",
+      "pay_element": "VAC SWN HR PAYOUT",
+      "amount": "5705378.11"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "1779.08"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "19180.95"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "DOCK",
+      "amount": "-152742.69"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "4329.24"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "25.82"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "ML DEPLOY COMBAT",
+      "amount": "18683.30"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "ML NON COMBAT",
+      "amount": "15433.57"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "OT 1_5",
+      "amount": "10547.90"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "OT 2_0",
+      "amount": "13114.84"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "PR YR CRT STTLMNT",
+      "amount": "26139.00"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "REGULAR SALARY",
+      "amount": "13047393.50"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "SUSPENSION",
+      "amount": "-638.63"
+    },
+    {
+      "department": "D60 - Civilian Office of Police Accountability",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "61784.77"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "DOCK",
+      "amount": "-4788.42"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "MILEAGE",
+      "amount": "166.6"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "981.56"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "OT 1_5",
+      "amount": "1320.07"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "REGULAR SALARY",
+      "amount": "2619036.70"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "SUSPENSION",
+      "amount": "-981.56"
+    },
+    {
+      "department": "D62 - Community Commission for Public Safety and Accountability",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "7211.78"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "5170.66"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "DOCK",
+      "amount": "-284451.61"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "MILEAGE",
+      "amount": "288269.90"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "6722.99"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 1_5",
+      "amount": "170184.77"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 1_5 REIMB",
+      "amount": "218268.71"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 2_0",
+      "amount": "160998.55"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 2_0 REIMB",
+      "amount": "454446.99"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 2_5",
+      "amount": "2660.87"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "OT 2_5 REIMB",
+      "amount": "2587.24"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "REGULAR SALARY",
+      "amount": "31353112.82"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "REGULAR TIME",
+      "amount": "23269.55"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "SUSPENSION",
+      "amount": "-6023.03"
+    },
+    {
+      "department": "D67 - Department of Buildings",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "128047.16"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "3000.00"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "DOCK",
+      "amount": "-104337.81"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "MILEAGE",
+      "amount": "96.48"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "8423.70"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "73.85"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "OT 1_5",
+      "amount": "4505.92"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "OT 2_0",
+      "amount": "331.36"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "REGULAR SALARY",
+      "amount": "18711550.44"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "REGULAR TIME",
+      "amount": "31110.25"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "SUSPENSION",
+      "amount": "-8049.00"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "400"
+    },
+    {
+      "department": "D70 - Department of Business Affairs and Consumer Protection",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "87066.56"
+    },
+    {
+      "department": "D72 - Department of Environment",
+      "pay_element": "DOCK",
+      "amount": "-7373.05"
+    },
+    {
+      "department": "D72 - Department of Environment",
+      "pay_element": "REGULAR SALARY",
+      "amount": "1321498.86"
+    },
+    {
+      "department": "D72 - Department of Environment",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "2404.80"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "4905.18"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "COURT NO PEN",
+      "amount": "5617.53"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "96121.79"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "2998.38"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "DOCK",
+      "amount": "-91916.46"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "2820.58"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "OT 1_5",
+      "amount": "167013.82"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "OT 2_0",
+      "amount": "72675.95"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "OT 2_5",
+      "amount": "10466.80"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "REGULAR SALARY",
+      "amount": "4977240.68"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "REGULAR TIME",
+      "amount": "139213.85"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "SUSPENSION",
+      "amount": "-796.42"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "20000"
+    },
+    {
+      "department": "D73 - Chicago Animal Care and Control",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "8894.77"
+    },
+    {
+      "department": "D77 - License Appeal Commission",
+      "pay_element": "REGULAR SALARY",
+      "amount": "115632.00"
+    },
+    {
+      "department": "D78 - Board of Ethics",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "173.5"
+    },
+    {
+      "department": "D78 - Board of Ethics",
+      "pay_element": "REGULAR SALARY",
+      "amount": "662646.85"
+    },
+    {
+      "department": "D78 - Board of Ethics",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "9022.12"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "1782"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "amount": "1390"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "24000.00"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "49364.32"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "COURT NO PEN",
+      "amount": "639.52"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "1750.66"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "DOCK",
+      "amount": "-171245.31"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "1636.59"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "142.75"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "ML SPECIAL TRAIN",
+      "amount": "26379.08"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "5140961.75"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "848713.66"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 1 RATE 2_0",
+      "amount": "306141.90"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 1 RATE 2_5",
+      "amount": "3680.50"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 2 RATE 1_0",
+      "amount": "10759856.72"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 2 RATE 1_5",
+      "amount": "854365.29"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 2 RATE 2_0",
+      "amount": "254029.88"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 2 RATE 2_5",
+      "amount": "10184.13"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "3282308.48"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "350277.60"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 3 RATE 2_0",
+      "amount": "97111.36"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 4 RATE 1_0",
+      "amount": "353708.71"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 4 RATE 1_5",
+      "amount": "31346.88"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 4 RATE 2_0",
+      "amount": "13005.98"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 5 RATE 1_0",
+      "amount": "2489624.68"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 5 RATE 1_5",
+      "amount": "185412.56"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 5 RATE 2_0",
+      "amount": "107877.91"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 6 RATE 1_0",
+      "amount": "131546.73"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 6 RATE 1_5",
+      "amount": "-643.03"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 6 RATE 2_0",
+      "amount": "-1655.59"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 7 RATE 1_0",
+      "amount": "438150.54"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 7 RATE 1_5",
+      "amount": "25605.31"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 7 RATE 2_0",
+      "amount": "6141.48"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 8 RATE 1_0",
+      "amount": "-32587.28"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 8 RATE 1_5",
+      "amount": "-2338.81"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "MULT 8 RATE 2_0",
+      "amount": "-721.13"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "OT 1_0",
+      "amount": "176727.16"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "OT 1_5",
+      "amount": "14349210.34"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "OT 2_0",
+      "amount": "6289809.58"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "OT 2_5",
+      "amount": "44104.02"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "REGULAR SALARY",
+      "amount": "33683231.65"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "REGULAR TIME",
+      "amount": "135099721.95"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "SUSPENSION",
+      "amount": "-11477.84"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "20500"
+    },
+    {
+      "department": "D81 - Department of Streets and Sanitation",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "716149.82"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "88840.39"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "amount": "5470.07"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "amount": "1575.76"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ACT UP SAL",
+      "amount": "19806.98"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ACT UP SAL NO PEN",
+      "amount": "5405.68"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "18000.00"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "128772.77"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "COURT NO PEN",
+      "amount": "3459.76"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "43627.80"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "DOCK",
+      "amount": "-237543.50"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MILEAGE",
+      "amount": "266042.35"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "34528.36"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ML BASIC TRAIN",
+      "amount": "476.75"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "ML SPECIAL TRAIN",
+      "amount": "445.12"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "737920.36"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "47644.41"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 1 RATE 2_0",
+      "amount": "21321.51"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 2 RATE 1_0",
+      "amount": "4258053.47"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 2 RATE 1_5",
+      "amount": "97532.72"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 2 RATE 2_0",
+      "amount": "73747.11"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "290580.64"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "10207.94"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 3 RATE 2_0",
+      "amount": "2398.40"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 4 RATE 1_0",
+      "amount": "461975.45"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 4 RATE 1_5",
+      "amount": "526.04"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 4 RATE 2_0",
+      "amount": "124803.08"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 5 RATE 1_0",
+      "amount": "1141520.72"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 5 RATE 1_5",
+      "amount": "39859.32"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 5 RATE 2_0",
+      "amount": "124723.84"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 6 RATE 1_0",
+      "amount": "2802.84"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 7 RATE 1_0",
+      "amount": "400772.47"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 7 RATE 1_5",
+      "amount": "79389.37"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 7 RATE 2_0",
+      "amount": "32073.10"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "MULT 8 RATE 1_0",
+      "amount": "-1021.91"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "OT 1_0",
+      "amount": "28097.74"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "OT 1_5",
+      "amount": "6409755.26"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "OT 2_0",
+      "amount": "3850505.82"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "OT 2_5",
+      "amount": "45356.55"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "REG 1_125",
+      "amount": "414036.60"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "REG 1_15",
+      "amount": "579.6"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "REGULAR SALARY",
+      "amount": "45867652.91"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "REGULAR TIME",
+      "amount": "88065303.77"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "SUSPENSION",
+      "amount": "-5398.89"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "TOOL ALLOWANCE",
+      "amount": "72378.55"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "7000"
+    },
+    {
+      "department": "D84 - Chicago Department of Transportation",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "918556.46"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "9685.86"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "amount": "1065.59"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "amount": "853.86"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ACT UP SAL",
+      "amount": "4007.39"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "24000.00"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "284889.99"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "COURT NO PEN",
+      "amount": "67116.47"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "11062.88"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "2267.04"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "DOCK",
+      "amount": "-1348208.10"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "51212.42"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "3705.69"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ML BASIC TRAIN",
+      "amount": "2160.97"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ML DEPLOY COMBAT",
+      "amount": "1650.54"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "ML NON COMBAT",
+      "amount": "14816.13"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "309443.93"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "24924.96"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 1 RATE 2_0",
+      "amount": "11764.21"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 2 RATE 1_0",
+      "amount": "3000968.89"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 2 RATE 1_5",
+      "amount": "214458.06"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 2 RATE 2_0",
+      "amount": "51254.76"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "42171.69"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "1308.98"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 3 RATE 2_0",
+      "amount": "2373.26"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 4 RATE 1_0",
+      "amount": "21563.93"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 4 RATE 1_5",
+      "amount": "1067.27"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 4 RATE 2_0",
+      "amount": "41.89"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 5 RATE 1_0",
+      "amount": "721665.69"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 5 RATE 1_5",
+      "amount": "117744.06"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 5 RATE 2_0",
+      "amount": "61705.44"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 6 RATE 1_0",
+      "amount": "6756255.86"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 6 RATE 1_5",
+      "amount": "1786706.70"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 6 RATE 2_0",
+      "amount": "797382.05"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 6 RATE 2_5",
+      "amount": "8893.25"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 7 RATE 1_0",
+      "amount": "1059.20"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 8 RATE 1_0",
+      "amount": "14013.31"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 8 RATE 1_5",
+      "amount": "1052.47"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "MULT 8 RATE 2_0",
+      "amount": "935.52"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "OT 1_0",
+      "amount": "1369783.65"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "OT 1_5",
+      "amount": "14857140.87"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "OT 2_0",
+      "amount": "8299048.56"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "OT 2_5",
+      "amount": "310361.08"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "200"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "47636.39"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "REGULAR SALARY",
+      "amount": "85584795.11"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "REGULAR TIME",
+      "amount": "95796351.71"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "RETRO PAY NO PEN",
+      "amount": "12594.91"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "SUSPENSION",
+      "amount": "-30277.22"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "TIME ENTRY WAGES",
+      "amount": "1220.00"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "218375"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "701862.55"
+    },
+    {
+      "department": "D85 - Department of Aviation",
+      "pay_element": "VAC SAL BUY BACK",
+      "amount": "0.00"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ACT UP 1 RATE 1_0",
+      "amount": "12179.08"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ACT UP 1 RATE 1_5",
+      "amount": "1257.05"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ACT UP 1 RATE 2_0",
+      "amount": "2008.73"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ACT UP 1 RATE 2_5",
+      "amount": "40"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ACT UP SAL",
+      "amount": "30887.22"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "30000.00"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "851070.04"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "COURT NO PEN",
+      "amount": "3036.94"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "15081.34"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "44751.16"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "DOCK",
+      "amount": "-201679.87"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MILEAGE",
+      "amount": "76521.10"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "52492.90"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MISC SUPPLEMENT SALARY",
+      "amount": "1260.14"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ML NON COMBAT",
+      "amount": "9999.96"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "ML SPECIAL TRAIN",
+      "amount": "1712.00"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "2628411.49"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 1 RATE 1_5",
+      "amount": "570953.49"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 1 RATE 2_0",
+      "amount": "353584.46"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 1 RATE 2_5",
+      "amount": "23463.90"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 2 RATE 1_0",
+      "amount": "1905158.88"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 2 RATE 1_5",
+      "amount": "447568.25"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 2 RATE 2_0",
+      "amount": "76767.92"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 3 RATE 1_0",
+      "amount": "1261196.04"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 3 RATE 1_5",
+      "amount": "226885.38"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 3 RATE 2_0",
+      "amount": "18326.38"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 4 RATE 1_0",
+      "amount": "298798.65"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 4 RATE 1_5",
+      "amount": "14474.58"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 4 RATE 2_0",
+      "amount": "11690.17"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 5 RATE 1_0",
+      "amount": "2392000.30"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 5 RATE 1_5",
+      "amount": "435767.15"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 5 RATE 2_0",
+      "amount": "36827.17"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 5 RATE 2_5",
+      "amount": "391.5"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 6 RATE 1_0",
+      "amount": "182.4"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 6 RATE 1_5",
+      "amount": "446.31"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "MULT 6 RATE 2_0",
+      "amount": "0.00"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "OT 1_0",
+      "amount": "3464515.53"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "OT 1_5",
+      "amount": "24913596.22"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "OT 2_0",
+      "amount": "15733030.46"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "OT 2_5",
+      "amount": "604080.48"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "200"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "PR YR MISC EARNINGS",
+      "amount": "7921.72"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "REG 1_15",
+      "amount": "3999236.87"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "REGULAR SALARY",
+      "amount": "42383616.12"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "REGULAR TIME",
+      "amount": "164200054.29"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "RETRO PAY NO PEN",
+      "amount": "78092.96"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "SUSPENSION",
+      "amount": "-10455.10"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "UNIFORM ALLOWANCE",
+      "amount": "13400"
+    },
+    {
+      "department": "D88 - Department of Water Management",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "928355.49"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "ACT UP SAL",
+      "amount": "8975.00"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "12000.00"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "COMP TIME BUY BACK",
+      "amount": "2539.63"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "COURT SETTLEMENT",
+      "amount": "195.84"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "DEC VAC PAYOUT",
+      "amount": "6965.31"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "DOCK",
+      "amount": "-256189.60"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "HOLIDAY PREMIUM 2_5",
+      "amount": "14200.80"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "MISC EARNINGS SALARY",
+      "amount": "25992.94"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "MULT 1 RATE 1_0",
+      "amount": "4656.64"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "OT 1_5",
+      "amount": "413394.11"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "OT 2_0",
+      "amount": "127742.02"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "OT 2_5",
+      "amount": "1726.29"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "PARTICIPATION AWARD",
+      "amount": "100"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "REGULAR SALARY",
+      "amount": "67962913.13"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "REGULAR TIME",
+      "amount": "8086946.21"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "SUSPENSION",
+      "amount": "-25774.59"
+    },
+    {
+      "department": "D91 - Chicago Public Library",
+      "pay_element": "VAC HR PAYOUT",
+      "amount": "330742.14"
+    },
+    {
+      "department": "D99 - Finance General",
+      "pay_element": "CBA LUMP SUM",
+      "amount": "15879500.00"
+    },
+    {
+      "department": "D99 - Finance General",
+      "pay_element": "PR YR RETRO PEN",
+      "amount": "161120292.97"
+    },
+    {
+      "department": "D99 - Finance General",
+      "pay_element": "RETRO PAY NO PEN",
+      "amount": "51746472.09"
+    },
+    {
+      "department": "D99 - Finance General",
+      "pay_element": "RETRO PAY PEN",
+      "amount": "13779485.70"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "retrieved_utc": "2026-10-15T20:26:55.603203+00:00",
+  "year": 2025,
+  "sources": {
+    "New York City": "https://data.cityofnewyork.us/resource/k397-673e.json",
+    "Chicago": "https://data.cityofchicago.org/resource/dawh-m56b.json",
+    "San Francisco": "https://data.sf.gov/resource/88g8-5mnd.json"
+  },
+  "checks": "Six city-year rows; components reconcile; Chicago has periods 1-24 in both years."
+}

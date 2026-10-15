@@ -1,0 +1,371 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Payroll and overtime in three U.S. cities",
+    "description": "Official 2024\u20132025 payroll data from New York City, Chicago, and San Francisco.",
+    "generatedAt": "2026-10-15T20:45:25.646704+00:00",
+    "charts": [
+      {
+        "id": "overtime_share_chart",
+        "title": "Overtime share of reported pay",
+        "subtitle": "2024 and 2025; Chicago uses payroll years, NYC and SF use fiscal years",
+        "showDescription": true,
+        "type": "bar",
+        "dataset": "city_year",
+        "sourceId": "combined",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "city",
+            "type": "nominal",
+            "label": "City"
+          },
+          "y": {
+            "field": "overtime_share",
+            "type": "quantitative",
+            "label": "Overtime share",
+            "format": "percent"
+          },
+          "color": {
+            "field": "year",
+            "type": "nominal",
+            "label": "Year"
+          }
+        },
+        "settings": {
+          "groupMode": "grouped"
+        },
+        "layout": "full"
+      },
+      {
+        "id": "service_share_chart",
+        "title": "Police and fire shares of city overtime",
+        "subtitle": "2025; each bar is a share of that city's total overtime dollars",
+        "showDescription": true,
+        "type": "bar",
+        "dataset": "service_share",
+        "sourceId": "departments",
+        "valueFormat": "percent",
+        "encodings": {
+          "x": {
+            "field": "city",
+            "type": "nominal",
+            "label": "City"
+          },
+          "y": {
+            "field": "share_of_city_overtime",
+            "type": "quantitative",
+            "label": "Share of city overtime",
+            "format": "percent"
+          },
+          "color": {
+            "field": "service",
+            "type": "nominal",
+            "label": "Service"
+          }
+        },
+        "settings": {
+          "groupMode": "grouped"
+        },
+        "layout": "full"
+      }
+    ],
+    "tables": [],
+    "sources": [
+      {
+        "id": "nyc",
+        "label": "NYC Open Data \u2014 Citywide Payroll Data (Fiscal Year)",
+        "url": "https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e",
+        "tables_used": [
+          "data.cityofnewyork.us.k397-673e"
+        ]
+      },
+      {
+        "id": "chicago",
+        "label": "City of Chicago \u2014 Employee Payroll Data (FMPS Payroll Costing)",
+        "url": "https://data.cityofchicago.org/Administration-Finance/Employee-Payroll-Data-FMPS-Payroll-Costing-/dawh-m56b",
+        "tables_used": [
+          "data.cityofchicago.org.dawh-m56b"
+        ]
+      },
+      {
+        "id": "sf",
+        "label": "DataSF \u2014 Employee Compensation",
+        "url": "https://data.sf.gov/d/88g8-5mnd",
+        "tables_used": [
+          "data.sf.gov.88g8-5mnd"
+        ]
+      },
+      {
+        "id": "combined",
+        "label": "Reviewed city-year aggregates from all three official portals",
+        "path": "queries/city_year.sql",
+        "tables_used": [
+          "data.cityofnewyork.us.k397-673e",
+          "data.cityofchicago.org.dawh-m56b",
+          "data.sf.gov.88g8-5mnd"
+        ],
+        "query": {
+          "engine": "SQLite over Socrata aggregates",
+          "language": "sql",
+          "sql": "SELECT city, year, basis,\n       CAST(overtime_pay_usd AS REAL) / CAST(total_pay_usd AS REAL) AS overtime_share,\n       CAST(overtime_pay_usd AS REAL) / 1000000000.0 AS overtime_pay_billion_usd,\n       CAST(total_pay_usd AS REAL) / 1000000000.0 AS total_pay_billion_usd\nFROM city_year_summary\nORDER BY city, year;\n",
+          "description": "Read the reviewed city-year CSV generated from official API aggregates by analyze.py. The SQL produces the chart and table snapshot.",
+          "executed_at": "2026-10-15T20:26:55.603203+00:00",
+          "metric_definitions": [
+            "Overtime share = overtime pay / (regular pay + overtime pay + other pay). Chicago overtime is analyst-coded from pay-element names; Chicago denominator is the sum of all published pay elements.",
+            "SF uses Fiscal year type only; benefits are excluded from salary pay.",
+            "NYC fiscal years end June 30; Chicago payroll years have 24 periods and may not match earnings dates."
+          ]
+        }
+      },
+      {
+        "id": "departments",
+        "label": "Reviewed department aggregates from all three official portals",
+        "path": "queries/service_share.sql",
+        "tables_used": [
+          "data.cityofnewyork.us.k397-673e",
+          "data.cityofchicago.org.dawh-m56b",
+          "data.sf.gov.88g8-5mnd"
+        ],
+        "query": {
+          "engine": "SQLite over Socrata aggregates",
+          "language": "sql",
+          "sql": "SELECT m.city, m.service, m.department,\n       CAST(d.overtime_pay_usd AS REAL) / 1000000000.0 AS overtime_pay_billion_usd,\n       CAST(d.overtime_pay_usd AS REAL) / CAST(s.overtime_pay_usd AS REAL) AS share_of_city_overtime\nFROM service_map AS m\nJOIN department_2025 AS d ON d.city = m.city AND d.department = m.department\nJOIN city_year_summary AS s ON s.city = m.city AND s.year = '2025'\nORDER BY m.city, m.service;\n",
+          "description": "Read the reviewed department CSV generated by analyze.py and join to an explicit police/fire label mapping.",
+          "executed_at": "2026-10-15T20:26:55.603203+00:00"
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# Payroll and overtime in three U.S. cities"
+      },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "sourceId": "combined",
+        "body": "## Executive Summary\n\n- **All three cities devote a material share of salary pay to overtime.** In their 2025 reporting periods, the share was 8.4% in New York City, 9.0% in San Francisco, and an estimated 10.7% in Chicago.\n- **The direction improved in each city.** Overtime share fell from 2024 to 2025 in all three datasets, although the Chicago classification and reporting calendar differ.\n- **Treat the comparison as a spending profile.** City size, agency responsibilities, employee coverage, pay categories, and reporting periods differ; the shares do not rank payroll efficiency."
+      },
+      {
+        "id": "definition",
+        "type": "markdown",
+        "sourceId": "combined",
+        "body": "## What the comparison measures\n\n**Overtime share** divides reported overtime pay by reported salary pay, including regular and other pay. New York City and San Francisco publish an overtime field. Chicago publishes pay elements, so the project classifies elements beginning with `OT` or containing `OVERTIME`, plus quarterly supervisor OT. NYC and San Francisco use fiscal years ending June 30; Chicago uses 24 payroll periods in its payroll year. San Francisco benefits are excluded so that its pay measure is closer to the other cities."
+      },
+      {
+        "id": "share_section",
+        "type": "markdown",
+        "sourceId": "combined",
+        "body": "## Overtime share declined in every city\n\nChicago's estimated share fell from 12.4% to 10.7%, San Francisco's from 9.5% to 9.0%, and New York City's from 8.6% to 8.4%. Chicago's decline partly reflects a larger denominator: a prior-year retroactive pensionable pay element contributed about $161 million in 2025. Its overtime dollars also declined, from about $513 million to $470 million. This makes the downward direction credible within Chicago's dataset, while the exact cross-city gap needs caution."
+      },
+      {
+        "id": "share_chart_block",
+        "type": "chart",
+        "chartId": "overtime_share_chart"
+      },
+      {
+        "id": "amount_section",
+        "type": "markdown",
+        "sourceId": "combined",
+        "body": "## Payroll scale differs sharply\n\nThe 2025 records show about $34.6 billion of salary pay in New York City, $5.3 billion in San Francisco, and $4.4 billion of reported payroll amount in Chicago. These totals describe different municipal workforces and accounting systems. A larger total does not imply higher pay per employee; the source rows are not a consistent employee count across cities. The linked aggregate CSV preserves exact city-year values and reporting bases."
+      },
+      {
+        "id": "service_section",
+        "type": "markdown",
+        "sourceId": "departments",
+        "body": "## Police and fire account for much of overtime\n\nIn 2025, police plus fire departments accounted for about 73% of Chicago's overtime dollars, 57% of New York City's, and 46% of San Francisco's. This is a concentration measure within each city's published payroll, not a like-for-like comparison of public safety staffing. San Francisco also reports sheriff and transit overtime separately; New York City has corrections and sanitation among its largest overtime users."
+      },
+      {
+        "id": "service_chart_block",
+        "type": "chart",
+        "chartId": "service_share_chart"
+      },
+      {
+        "id": "next_steps",
+        "type": "markdown",
+        "body": "## Recommended next steps\n\n1. Review overtime within each city by agency and job title, with regular pay as context.\n2. Check whether large overtime changes reflect staffing levels, collective bargaining payments, emergencies, or accounting adjustments.\n3. For any cross-city efficiency claim, add comparable workforce counts, service scope, and worked hours before drawing conclusions."
+      },
+      {
+        "id": "questions",
+        "type": "markdown",
+        "body": "## Further questions\n\nWhich departments drove the 2024\u20132025 movement within each city? How much of Chicago's remaining pay elements are retroactive awards or reimbursements? Are comparable full-time-equivalent counts available for the same reporting windows?"
+      },
+      {
+        "id": "caveats",
+        "type": "markdown",
+        "sourceId": "combined",
+        "body": "## Caveats and assumptions\n\nThe analysis covers three city governments, not their whole metropolitan labor markets. It uses public aggregate API queries retrieved October 15, 2026. NYC and San Francisco FY2025 cover July 2024\u2013June 2025; Chicago's payroll year 2025 has 24 periods that may not align exactly with when work was performed. Chicago's overtime mapping is an analyst proxy because the portal has no published overtime flag; some compensatory time or premium pay may sit outside it. Chicago says its extract is unaudited and may change after corrections. San Francisco can have multiple rows per employee per year, so row counts were not used as headcounts. Totals exclude San Francisco benefits and do not include private deductions or net pay. Re-run the script to refresh the snapshot."
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-10-15T20:45:25.646704+00:00",
+    "status": "ready",
+    "datasets": {
+      "city_year": [
+        {
+          "city": "Chicago",
+          "year": "2024",
+          "basis": "Payroll year (24 periods)",
+          "overtime_share": 0.12388893342879667,
+          "overtime_pay_billion_usd": 0.51287744865,
+          "total_pay_billion_usd": 4.139816482840001
+        },
+        {
+          "city": "Chicago",
+          "year": "2025",
+          "basis": "Payroll year (24 periods)",
+          "overtime_share": 0.10694467454216987,
+          "overtime_pay_billion_usd": 0.46989604927,
+          "total_pay_billion_usd": 4.393823734390001
+        },
+        {
+          "city": "New York City",
+          "year": "2024",
+          "basis": "Fiscal year (July-June)",
+          "overtime_share": 0.08573733451611742,
+          "overtime_pay_billion_usd": 3.05925106752,
+          "total_pay_billion_usd": 35.68166755808
+        },
+        {
+          "city": "New York City",
+          "year": "2025",
+          "basis": "Fiscal year (July-June)",
+          "overtime_share": 0.08447205921854438,
+          "overtime_pay_billion_usd": 2.92238982293,
+          "total_pay_billion_usd": 34.59593444229
+        },
+        {
+          "city": "San Francisco",
+          "year": "2024",
+          "basis": "Fiscal year (July-June)",
+          "overtime_share": 0.09533728659503576,
+          "overtime_pay_billion_usd": 0.46886163407,
+          "total_pay_billion_usd": 4.91792509327
+        },
+        {
+          "city": "San Francisco",
+          "year": "2025",
+          "basis": "Fiscal year (July-June)",
+          "overtime_share": 0.08957434539552421,
+          "overtime_pay_billion_usd": 0.47100625912,
+          "total_pay_billion_usd": 5.258271852729999
+        }
+      ],
+      "service_share": [
+        {
+          "city": "Chicago",
+          "service": "Fire",
+          "department": "D59 - Chicago Fire Department",
+          "overtime_pay_billion_usd": 0.09093107204999999,
+          "share_of_city_overtime": 0.1935131657124264
+        },
+        {
+          "city": "Chicago",
+          "service": "Police",
+          "department": "D57 - Chicago Police Department",
+          "overtime_pay_billion_usd": 0.25016961867,
+          "share_of_city_overtime": 0.5323935348225364
+        },
+        {
+          "city": "New York City",
+          "service": "Fire",
+          "department": "FIRE DEPARTMENT",
+          "overtime_pay_billion_usd": 0.5680179883099999,
+          "share_of_city_overtime": 0.19436763153674783
+        },
+        {
+          "city": "New York City",
+          "service": "Police",
+          "department": "POLICE DEPARTMENT",
+          "overtime_pay_billion_usd": 1.08761602457,
+          "share_of_city_overtime": 0.3721666480071272
+        },
+        {
+          "city": "San Francisco",
+          "service": "Fire",
+          "department": "Fire Department",
+          "overtime_pay_billion_usd": 0.06938380327,
+          "share_of_city_overtime": 0.14730972662578318
+        },
+        {
+          "city": "San Francisco",
+          "service": "Police",
+          "department": "Police",
+          "overtime_pay_billion_usd": 0.14722128780000002,
+          "share_of_city_overtime": 0.31256758259446377
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "nyc",
+      "label": "NYC Open Data \u2014 Citywide Payroll Data (Fiscal Year)",
+      "url": "https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e",
+      "tables_used": [
+        "data.cityofnewyork.us.k397-673e"
+      ]
+    },
+    {
+      "id": "chicago",
+      "label": "City of Chicago \u2014 Employee Payroll Data (FMPS Payroll Costing)",
+      "url": "https://data.cityofchicago.org/Administration-Finance/Employee-Payroll-Data-FMPS-Payroll-Costing-/dawh-m56b",
+      "tables_used": [
+        "data.cityofchicago.org.dawh-m56b"
+      ]
+    },
+    {
+      "id": "sf",
+      "label": "DataSF \u2014 Employee Compensation",
+      "url": "https://data.sf.gov/d/88g8-5mnd",
+      "tables_used": [
+        "data.sf.gov.88g8-5mnd"
+      ]
+    },
+    {
+      "id": "combined",
+      "label": "Reviewed city-year aggregates from all three official portals",
+      "path": "queries/city_year.sql",
+      "tables_used": [
+        "data.cityofnewyork.us.k397-673e",
+        "data.cityofchicago.org.dawh-m56b",
+        "data.sf.gov.88g8-5mnd"
+      ],
+      "query": {
+        "engine": "SQLite over Socrata aggregates",
+        "language": "sql",
+        "sql": "SELECT city, year, basis,\n       CAST(overtime_pay_usd AS REAL) / CAST(total_pay_usd AS REAL) AS overtime_share,\n       CAST(overtime_pay_usd AS REAL) / 1000000000.0 AS overtime_pay_billion_usd,\n       CAST(total_pay_usd AS REAL) / 1000000000.0 AS total_pay_billion_usd\nFROM city_year_summary\nORDER BY city, year;\n",
+        "description": "Read the reviewed city-year CSV generated from official API aggregates by analyze.py. The SQL produces the chart and table snapshot.",
+        "executed_at": "2026-10-15T20:26:55.603203+00:00",
+        "metric_definitions": [
+          "Overtime share = overtime pay / (regular pay + overtime pay + other pay). Chicago overtime is analyst-coded from pay-element names; Chicago denominator is the sum of all published pay elements.",
+          "SF uses Fiscal year type only; benefits are excluded from salary pay.",
+          "NYC fiscal years end June 30; Chicago payroll years have 24 periods and may not match earnings dates."
+        ]
+      }
+    },
+    {
+      "id": "departments",
+      "label": "Reviewed department aggregates from all three official portals",
+      "path": "queries/service_share.sql",
+      "tables_used": [
+        "data.cityofnewyork.us.k397-673e",
+        "data.cityofchicago.org.dawh-m56b",
+        "data.sf.gov.88g8-5mnd"
+      ],
+      "query": {
+        "engine": "SQLite over Socrata aggregates",
+        "language": "sql",
+        "sql": "SELECT m.city, m.service, m.department,\n       CAST(d.overtime_pay_usd AS REAL) / 1000000000.0 AS overtime_pay_billion_usd,\n       CAST(d.overtime_pay_usd AS REAL) / CAST(s.overtime_pay_usd AS REAL) AS share_of_city_overtime\nFROM service_map AS m\nJOIN department_2025 AS d ON d.city = m.city AND d.department = m.department\nJOIN city_year_summary AS s ON s.city = m.city AND s.year = '2025'\nORDER BY m.city, m.service;\n",
+        "description": "Read the reviewed department CSV generated by analyze.py and join to an explicit police/fire label mapping.",
+        "executed_at": "2026-10-15T20:26:55.603203+00:00"
+      }
+    }
+  ]
+}
