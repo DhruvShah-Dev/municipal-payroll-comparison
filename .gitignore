@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.verification-failure.png
+app/node_modules/
+app/dist/
+app/test-results/
+app/playwright-report/
+app/*.tsbuildinfo

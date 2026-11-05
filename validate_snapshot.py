@@ -1,21 +1,15 @@
-"""Validate the committed public-data snapshot without network access.
-
-Run: python validate_snapshot.py
-"""
+"""Validate the committed aggregate snapshot without network access."""
 
 from __future__ import annotations
 
-import csv
 import json
+import math
 from collections import defaultdict
-from decimal import Decimal
-from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 EXPECTED_CITIES = {"Chicago", "New York City", "San Francisco"}
-EXPECTED_YEARS = {"2024", "2025"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -23,72 +17,60 @@ def require(condition: bool, message: str) -> None:
         raise ValueError(message)
 
 
-def read_csv(name: str) -> list[dict[str, str]]:
-    with (DATA / name).open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
-
-
-class PageLinks(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.navigation: list[str] = []
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        values = dict(attrs)
-        if tag == "a" and values.get("class") == "metro-payroll-page-nav":
-            self.navigation.append(values.get("href") or "")
-
-
 def main() -> None:
-    rows = read_csv("city_year_summary.csv")
-    require(len(rows) == 6, "Expected two annual rows for each of three cities")
-    keys = {(r["city"], r["year"]) for r in rows}
-    require(keys == {(city, year) for city in EXPECTED_CITIES for year in EXPECTED_YEARS},
-            "City-year coverage changed")
-    for row in rows:
-        total = Decimal(row["total_pay_usd"])
-        components = sum((Decimal(row[key]) for key in
-                          ("regular_pay_usd", "overtime_pay_usd", "other_pay_usd")), Decimal())
-        require(total > 0 and abs(total - components) <= Decimal("0.01"),
-                f"Pay components do not reconcile for {row['city']} {row['year']}")
-        share = Decimal(row["overtime_pay_usd"]) / total * 100
-        require(abs(share - Decimal(row["overtime_share_pct"])) < Decimal("0.0001"),
-                f"Overtime share does not reconcile for {row['city']} {row['year']}")
+    story = json.loads((DATA / "story_data.json").read_text(encoding="utf-8"))
+    years = story["metadata"]["included_years"]
+    require(len(years) == 3 and years == sorted(years), "Expected three ordered complete years")
+    require(story["metadata"]["latest_complete_year"] == years[-1], "Latest year metadata is inconsistent")
+    require(years[-1] not in story["metadata"]["excluded_incomplete_years"], "Included year is marked incomplete")
 
-    departments = read_csv("department_2025.csv")
-    totals: dict[str, dict[str, Decimal]] = defaultdict(lambda: defaultdict(Decimal))
-    for row in departments:
-        require(row["city"] in EXPECTED_CITIES, f"Unexpected city: {row['city']}")
-        require(row["department"].strip() != "", "Blank department")
-        for field in ("total_pay_usd", "overtime_pay_usd"):
-            totals[row["city"]][field] += Decimal(row[field])
-    for row in rows:
-        if row["year"] != "2025":
-            continue
-        for field in ("total_pay_usd", "overtime_pay_usd"):
-            require(abs(totals[row["city"]][field] - Decimal(row[field])) <= Decimal("0.10"),
-                    f"Department subtotal differs for {row['city']}: {field}")
+    city_rows = story["city_years"]
+    expected_keys = {(city, year) for city in EXPECTED_CITIES for year in years}
+    actual_keys = {(row["city"], row["year"]) for row in city_rows}
+    require(len(city_rows) == 9 and actual_keys == expected_keys, "City-year coverage is incomplete or duplicated")
+    city_lookup = {(row["city"], row["year"]): row for row in city_rows}
+    for row in city_rows:
+        total = row["regular_pay_usd"] + row["overtime_pay_usd"] + row["other_pay_usd"]
+        require(abs(total - row["total_pay_usd"]) <= 0.02, f"Pay components do not reconcile for {row['city']} {row['year']}")
+        require(abs(row["overtime_pay_usd"] / row["total_pay_usd"] - row["overtime_share"]) < 1e-12, f"Overtime share does not reconcile for {row['city']} {row['year']}")
+        require(all(math.isfinite(value) for value in row.values() if isinstance(value, float)), f"Non-finite value for {row['city']} {row['year']}")
 
-    raw = json.loads((DATA / "source_aggregates.json").read_text(encoding="utf-8"))
-    periods = raw["chicago_periods"]
-    require({(p["payroll_year"], p["first_period"], p["last_period"], p["periods"])
-             for p in periods} == {("2024", "1", "24", "24"), ("2025", "1", "24", "24")},
-            "Chicago payroll-period coverage changed")
+    complete_chicago = {
+        int(row["payroll_year"]) for row in story["period_coverage"]
+        if int(row["periods"]) == 24 and int(row["first_period"]) == 1 and int(row["last_period"]) == 24
+    }
+    require(set(years).issubset(complete_chicago), "Chicago does not contain all 24 periods for every included year")
 
-    for html_name, artifact_name, next_page in (
-        ("report.html", "artifact.json", "comparison.html"),
-        ("comparison.html", "comparison_artifact.json", "report.html"),
-    ):
-        artifact = json.loads((ROOT / artifact_name).read_text(encoding="utf-8"))
-        require(artifact["surface"] == "report" and artifact["snapshot"]["status"] == "ready",
-                f"{artifact_name} is not a ready report")
-        require(len(artifact["manifest"]["charts"]) >= 2, f"{artifact_name} lost its charts")
-        parser = PageLinks()
-        parser.feed((ROOT / html_name).read_text(encoding="utf-8"))
-        require(parser.navigation == [next_page] and (ROOT / next_page).is_file(),
-                f"{html_name} navigation is broken")
+    department_totals: dict[tuple[str, int], dict[str, float]] = defaultdict(lambda: {"total": 0.0, "overtime": 0.0})
+    for row in story["department_years"]:
+        require(row["department"].strip() != "", "Blank department label")
+        key = (row["city"], row["year"])
+        department_totals[key]["total"] += row["total_pay_usd"]
+        department_totals[key]["overtime"] += row["overtime_pay_usd"]
+    require(set(department_totals) == expected_keys, "Department coverage differs from city-year coverage")
+    for key, totals in department_totals.items():
+        city = city_lookup[key]
+        require(abs(totals["total"] - city["total_pay_usd"]) <= 0.25, f"Department total pay differs for {key}")
+        require(abs(totals["overtime"] - city["overtime_pay_usd"]) <= 0.25, f"Department overtime differs for {key}")
 
-    print("Snapshot validation passed: six city-year rows, reconciled totals, complete Chicago periods, and two linked report pages.")
+    latest = years[-1]
+    for city in EXPECTED_CITIES:
+        driver_total = sum(row["overtime_change_usd"] for row in story["drivers"] if row["city"] == city)
+        city_change = city_lookup[(city, latest)]["overtime_change_usd"]
+        require(abs(driver_total - city_change) <= 0.25, f"Driver contributions do not reconcile for {city}")
+        top = [row for row in story["top_departments"] if row["city"] == city]
+        require(len(top) == 5 and {row["rank"] for row in top} == {1, 2, 3, 4, 5}, f"Top-five ranking is invalid for {city}")
+
+    sensitivity = story["chicago_sensitivity"]
+    require(len(sensitivity) == 3, "Chicago sensitivity scenarios changed")
+    require(sensitivity[0]["overtime_share"] < sensitivity[2]["overtime_share"], "Chicago direction of change is not preserved")
+    require(sensitivity[0]["overtime_share"] < sensitivity[1]["overtime_share"] < sensitivity[2]["overtime_share"], "Chicago sensitivity ordering is invalid")
+    require(sensitivity[1]["excluded_amount_usd"] > 0, "Chicago sensitivity exclusion is missing")
+
+    for redirect in (ROOT / "report.html", ROOT / "comparison.html"):
+        require(redirect.is_file(), f"Missing compatibility page: {redirect.name}")
+
+    print(f"Snapshot validation passed: 9 city-year rows across {years[0]}–{years[-1]}, reconciled departments and drivers, complete Chicago periods, and valid sensitivity scenarios.")
 
 
 if __name__ == "__main__":

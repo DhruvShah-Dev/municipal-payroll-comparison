@@ -1,56 +1,104 @@
-# Three-city payroll comparison
+# Municipal overtime: NYC, Chicago, and San Francisco
 
-This portfolio project compares **municipal government payroll spending** in New York City, Chicago, and San Francisco using official open data. It does **not** describe everyone employed in the wider metropolitan areas.
+An interactive, source-backed data story comparing municipal payroll overtime in New York City, Chicago, and San Francisco. The report uses aggregate official open-data queries only; it does not download or store employee names or employee-level payroll records.
 
-Open the [summary report](report.html), then use its **Next page: comparison** link to reach the [detailed comparison](comparison.html). The pages are snapshots of source data retrieved **October 15, 2026**.
+`data analytics` · `data visualization` · `Storytelling with Data` · `municipal payroll` · `public data` · `React` · `TypeScript` · `Python`
 
-## Sources
+[View the live report](https://dhruvshah-dev.github.io/municipal-payroll-comparison/) · [Review the analysis](analyze.py) · [Inspect the validated snapshot](data/story_data.json)
 
-| City | Official dataset | Grain used here | 2025 window |
-| --- | --- | --- | --- |
-| New York City | [Citywide Payroll Data (Fiscal Year)](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e) | Employee fiscal-year record | Fiscal year ending June 30, 2025 |
-| Chicago | [Employee Payroll Data (FMPS Payroll Costing)](https://data.cityofchicago.org/Administration-Finance/Employee-Payroll-Data-FMPS-Payroll-Costing-/dawh-m56b) | Employee pay element in payroll period | Payroll year 2025, periods 1–24 |
-| San Francisco | [Employee Compensation](https://data.sf.gov/d/88g8-5mnd) | Employee/job/department/year-type record | Fiscal year ending June 30, 2025 |
+![Desktop overview of the municipal payroll overtime data story](docs/screenshots/overview-desktop.png)
 
-San Francisco publishes overlapping fiscal and calendar views; this project filters to **Fiscal** only. Its [dataset FAQ](https://sfdigitalservices.gitbook.io/dataset-explainers/employee-compensation-faq) says an employee may have multiple rows in a year. Chicago warns that its extract is unaudited and payroll periods do not necessarily match earnings periods. Counts of source records are therefore **not** comparable employee headcounts.
+The canonical experience is the React application in [`app`](app). The legacy [`report.html`](report.html) and [`comparison.html`](comparison.html) paths redirect to the new story.
 
-## Key measure
+## What the refreshed analysis shows
+
+The latest common complete comparison window is **2023–2025**. Chicago's 2026 data contains fewer than 24 payroll periods, so 2026 is excluded automatically.
+
+| City | 2025 overtime pay | 2025 reported pay | 2025 overtime share | Change vs. 2024 |
+| --- | ---: | ---: | ---: | ---: |
+| Chicago | $469.9M | $4.394B | 10.69% | −1.69 pp |
+| New York City | $2.922B | $34.596B | 8.45% | −0.13 pp |
+| San Francisco | $471.0M | $5.258B | 8.96% | −0.58 pp |
+
+- Overtime's share of reported pay fell from 2024 to 2025 in all three datasets.
+- Chicago's decline was dominated by a $35.9M reduction in police overtime.
+- New York City's $172.4M police decrease was partly offset by increases in corrections and sanitation.
+- San Francisco overtime dollars rose $2.1M even though overtime share fell; total salary pay grew faster.
+- The top five departments account for about 91.8% of Chicago overtime, 87.6% in San Francisco, and 83.1% in New York City.
+
+These figures describe payroll composition and department-level movement. They do not measure productivity, fairness, staffing adequacy, hours worked, or service quality.
+
+## Visual story
+
+The report follows a focused narrative: establish the shared citywide decline, then reveal the department movements and classification choices behind it. Primary values are directly labeled; the interactive tooltip adds detail without being required to understand the chart.
+
+### Overtime share, 2023–2025
+
+![Directly labeled line chart showing overtime share falling in all three cities, with the accessible Chicago tooltip open](docs/screenshots/overtime-trend.png)
+
+### Department contributions to the 2024–2025 change
+
+![Diverging bar charts showing which departments increased or decreased overtime spending in each city](docs/screenshots/department-drivers.png)
+
+### Responsive report
+
+<p align="center">
+  <img src="docs/screenshots/overview-mobile.png" width="390" alt="Mobile view of the report headline and 2025 city comparison">
+</p>
+
+## Metric and comparability
 
 `Overtime share = overtime pay / (regular pay + overtime pay + other pay)`.
 
-NYC and San Francisco publish overtime as a field. Chicago publishes pay elements, so [analyze.py](analyze.py) maps elements whose names begin with `OT` or include `OVERTIME` or `QUARTERLY OT` into an **analyst-defined overtime proxy**. Chicago's denominator is the sum of *all* published pay elements. San Francisco benefits are excluded from salary pay. These choices make the comparison useful for exploring payroll structure, but not for ranking labor efficiency or pay practices.
+NYC and San Francisco publish overtime fields. Chicago publishes pay elements, so [`analyze.py`](analyze.py) classifies elements whose names begin with `OT` or contain `OVERTIME` or `QUARTERLY OT` as an analyst-defined overtime proxy. Removing Chicago's $161.1M `PR YR RETRO PEN` item from the 2025 denominator raises its overtime share from 10.69% to 11.10%, still below 2024's 12.39%.
 
-## Findings
+NYC and San Francisco use fiscal years ending June 30. Chicago uses 24 payroll periods that do not necessarily match the dates when work was performed. Department responsibilities and workforce coverage also differ.
 
-| City | 2025 overtime pay | 2025 reported pay | Overtime share | 2024 overtime share |
-| --- | ---: | ---: | ---: | ---: |
-| New York City | $2.922B | $34.596B | 8.45% | 8.57% |
-| Chicago | $0.470B | $4.394B | 10.69% | 12.39% |
-| San Francisco | $0.471B | $5.258B | 8.96% | 9.53% |
+## Official sources
 
-Within the published 2025 data, police and fire departments together account for about 57% of NYC overtime, 73% of Chicago overtime, and 46% of San Francisco overtime. These are shares of each city's own overtime spend; department responsibilities and coverage differ.
+- [NYC Citywide Payroll Data (Fiscal Year)](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e)
+- [Chicago Employee Payroll Data (FMPS Payroll Costing)](https://data.cityofchicago.org/Administration-Finance/Employee-Payroll-Data-FMPS-Payroll-Costing-/dawh-m56b)
+- [San Francisco Employee Compensation](https://data.sfgov.org/City-Management-and-Ethics/Employee-Compensation/88g8-5mnd)
 
-Chicago's $161.1M `PR YR RETRO PEN` element raises its 2025 total-pay denominator. Excluding that single element for a sensitivity check raises Chicago's 2025 overtime share from 10.69% to about **11.10%**; it remains below the 2024 value. This does not reclassify all retroactive pay or make the cities fully comparable.
+San Francisco publishes overlapping fiscal and calendar records; this project uses `Fiscal` only. Its [dataset FAQ](https://sfdigitalservices.gitbook.io/dataset-explainers/employee-compensation-faq) explains why employees can appear on multiple rows and why negative adjustments may occur. Source row counts are therefore not treated as comparable employee headcounts.
 
-## Reproduce
+## Reproduce the analysis and report
 
-Run from the repository root (Python 3.11+; standard library only):
+Requirements: Python 3.11+, Node.js 20+, and network access for the source refresh.
 
 ```powershell
 python analyze.py
-python build_report.py
-python build_comparison.py
 python validate_snapshot.py
+
+cd app
+npm install
+npm run test:run
+npm run build
+npm run e2e
 ```
 
-`analyze.py` calls the three Socrata APIs and writes reviewed aggregate outputs to [data](data). It checks that pay components reconcile, Chicago has all 24 payroll periods in both comparison years, and department subtotals reconcile to city totals. The two build scripts use SQLite and the saved [SQL queries](queries) to create [summary](artifact.json) and [comparison](comparison_artifact.json) artifacts. Both HTML pages were packaged from those artifacts with the Data Analytics portable builder. [patch_portable_html.py](patch_portable_html.py) adds local page navigation and corrects the builder's top bar width when a vertical scrollbar appears. Both packaged pages passed desktop and mobile browser verification.
+`analyze.py` discovers the latest three years that are present in all sources and complete in Chicago, then writes:
 
-The HTML files are ready to open. Regenerating the HTML from the JSON artifacts requires the Data Analytics portable builder available in this environment; the Python steps above reproduce the data and report inputs without that builder.
+- `data/story_data.json`: typed, chart-ready snapshot and source metadata.
+- `data/city_year_summary.csv`: city-year measures.
+- `data/department_year.csv`: department-year aggregates.
+- `data/run_metadata.json`: retrieval time and completed checks.
 
-GitHub Actions runs `validate_snapshot.py` on each push and pull request. It checks city-year coverage, arithmetic, department subtotals, Chicago period coverage, and links between the two report pages without depending on live API availability.
+`validate_snapshot.py` checks nine city-year rows, pay-component arithmetic, Chicago's 24-period coverage, department-to-city reconciliation, driver reconciliation, top-five rankings, sensitivity ordering, finite values, and compatibility pages.
 
-The project intentionally saves **aggregate results only**; it does not download employee names or individual pay records. Public sources may be revised, so rerunning the scripts can change the numbers.
+The Vite application imports the reviewed JSON at build time. The production build is a static site with relative asset paths and compatibility redirects. GitHub Actions validates the data, runs unit and browser tests, builds the app, and deploys `app/dist` to GitHub Pages from `main`.
 
-## Next analysis
+## Interaction and accessibility
 
-Study which departments drove year-over-year overtime changes within each city, then join comparable staffing or worked-hours data before making efficiency claims. For Chicago, seek an official pay-element category map before treating its overtime proxy as final.
+- Primary values are directly labeled; hover is never the only way to read the main result.
+- Every interactive chart mark supports pointer hover and keyboard focus.
+- Tooltips include the reporting basis, relevant dollars, shares, comparison change, denominator context, and Chicago classification note where applicable.
+- The report uses semantic sections, visible focus, a skip link, reduced-motion support, responsive layouts, and automated axe checks.
+
+The committed aggregate snapshot was refreshed **November 5, 2026**. Official portals may revise historical records, so rerunning the extractor can change the results.
+
+## Keywords and tags
+
+**Keywords:** municipal payroll analysis, overtime analysis, NYC payroll, Chicago payroll, San Francisco employee compensation, public-sector data, open-data analysis, Socrata API, accessible charts, responsive data story, department overtime, fiscal-year comparison, reproducible analytics.
+
+**Tags:** `#DataAnalytics` `#DataVisualization` `#StorytellingWithData` `#MunicipalPayroll` `#PublicData` `#OpenData` `#React` `#TypeScript` `#Recharts` `#Python` `#Socrata` `#Accessibility` `#PortfolioProject`

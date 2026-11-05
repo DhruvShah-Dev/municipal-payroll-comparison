@@ -1,16 +1,64 @@
-name: Validate payroll snapshot
+name: Validate and deploy payroll story
 
 on:
   push:
+    branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  validate:
+  validate-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
-      - name: Check committed data and report links
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Validate committed aggregate snapshot
         run: python validate_snapshot.py
+      - name: Install frontend dependencies
+        working-directory: app
+        run: npm ci
+      - name: Run unit tests
+        working-directory: app
+        run: npm run test:run
+      - name: Build static report
+        working-directory: app
+        run: npm run build
+      - name: Install Playwright Chromium
+        if: runner.os == 'Linux'
+        working-directory: app
+        run: npx playwright install --with-deps chromium
+      - name: Run browser and accessibility tests
+        working-directory: app
+        run: npm run e2e
+      - name: Upload Pages artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: app/dist
+
+  deploy:
+    if: github.event_name == 'push'
+    needs: validate-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
